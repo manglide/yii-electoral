@@ -1,0 +1,1840 @@
+2018/02/06 21:57:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "Gii". in C:\yii1.1\web\CWebApplication.php:286
+Stack trace:
+#0 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('Gii')
+#1 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=Gii
+---
+2018/02/06 22:00:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "Gii". in C:\yii1.1\web\CWebApplication.php:286
+Stack trace:
+#0 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('Gii')
+#1 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=Gii
+---
+2018/02/06 22:00:57 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gii". in C:\yii1.1\web\CWebApplication.php:286
+Stack trace:
+#0 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2018/02/07 09:05:56 [error] [exception.Error] Error: Class 'polling_unit' not found in C:\yii1.1\db\ar\CActiveRecord.php:397
+Stack trace:
+#0 C:\yii1.1\web\CActiveDataProvider.php(165): CActiveRecord::model('polling_unit')
+#1 C:\yii1.1\web\CActiveDataProvider.php(87): CActiveDataProvider->getModel('polling_unit')
+#2 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(52): CActiveDataProvider->__construct('polling_unit', Array)
+#3 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionPollingUnit()
+#4 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\yii1.1\web\CWebApplication.php(282): CController->run('pollingunit')
+#8 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/pollinguni...')
+#9 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=site/pollingunit
+HTTP_REFERER=http://localhost/index.php?r=site/index
+---
+2018/02/07 09:08:07 [error] [exception.Error] Error: Class 'polling_unit' not found in C:\yii1.1\db\ar\CActiveRecord.php:397
+Stack trace:
+#0 C:\yii1.1\web\CActiveDataProvider.php(165): CActiveRecord::model('polling_unit')
+#1 C:\yii1.1\web\CActiveDataProvider.php(87): CActiveDataProvider->getModel('polling_unit')
+#2 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(52): CActiveDataProvider->__construct('polling_unit', Array)
+#3 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionPollingUnit()
+#4 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\yii1.1\web\CWebApplication.php(282): CController->run('pollingunit')
+#8 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/pollinguni...')
+#9 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=site/pollingunit
+HTTP_REFERER=http://localhost/index.php?r=site/index
+---
+2018/02/07 09:09:15 [error] [exception.CException] CException: The property "itemView" cannot be empty. in C:\yii1.1\zii\widgets\CListView.php:210
+Stack trace:
+#0 C:\yii1.1\web\CBaseController.php(147): CListView->init()
+#1 C:\yii1.1\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#2 C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php(9): CBaseController->widget('zii.widgets.CLi...', Array)
+#3 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#4 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#5 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#6 C:\yii1.1\web\CController.php(785): CController->renderPartial('pages/pollingun...', Array, true)
+#7 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(59): CController->render('pages/pollingun...', Array)
+#8 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionPollingUnit()
+#9 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\yii1.1\web\CWebApplication.php(282): CController->run('pollingunit')
+#13 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/pollinguni...')
+#14 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=site/pollingunit
+HTTP_REFERER=http://localhost/index.php?r=site/index
+---
+2018/02/07 09:12:29 [error] [exception.CException] CException: The property "itemView" cannot be empty. in C:\yii1.1\zii\widgets\CListView.php:210
+Stack trace:
+#0 C:\yii1.1\web\CBaseController.php(147): CListView->init()
+#1 C:\yii1.1\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#2 C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php(9): CBaseController->widget('zii.widgets.CLi...', Array)
+#3 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#4 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#5 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#6 C:\yii1.1\web\CController.php(785): CController->renderPartial('pages/pollingun...', Array, true)
+#7 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(58): CController->render('pages/pollingun...', Array)
+#8 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionPollingUnit()
+#9 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\yii1.1\web\CWebApplication.php(282): CController->run('pollingunit')
+#13 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/pollinguni...')
+#14 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=site/pollingunit
+HTTP_REFERER=http://localhost/index.php?r=site/index
+---
+2018/02/07 09:19:49 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select polling_unit.polling_unit_name AS `PollingUnit`,SUM(CASE WHEN announced_p' at line 1. The SQL statement executed was: SELECT COUNT(*) FROM (SELECT select polling_unit.polling_unit_name AS `PollingUnit`,SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PDP' THEN announced_pu_results.party_score END) AS 'PDP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'DPP' THEN announced_pu_results.party_score END) AS 'DPP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'ACN' THEN announced_pu_results.party_score END) AS 'ACN',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PPA' THEN announced_pu_results.party_score END) AS 'PPA',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'CDC' THEN announced_pu_results.party_score END) AS 'CDC',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'JP' THEN announced_pu_results.party_score END) AS 'JP',
+			ward.ward_name AS `Ward`, lga.lga_name AS `LGA` FROM `polling_unit` `t` INNER JOIN lga ON polling_unit.lga_id = lga.lga_id GROUP BY polling_unit.uniqueid, announced_pu_results.polling_unit_uniqueid, polling_unit.polling_unit_number) sq.
+in C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php (10)
+in C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php (58)
+in C:\Apache24\htdocs\bincom\bincom\index.php (13)
+2018/02/07 09:19:49 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select polling_unit.polling_unit_name AS `PollingUnit`,SUM(CASE WHEN announced_p' at line 1. The SQL statement executed was: SELECT COUNT(*) FROM (SELECT select polling_unit.polling_unit_name AS `PollingUnit`,SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PDP' THEN announced_pu_results.party_score END) AS 'PDP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'DPP' THEN announced_pu_results.party_score END) AS 'DPP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'ACN' THEN announced_pu_results.party_score END) AS 'ACN',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PPA' THEN announced_pu_results.party_score END) AS 'PPA',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'CDC' THEN announced_pu_results.party_score END) AS 'CDC',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'JP' THEN announced_pu_results.party_score END) AS 'JP',
+			ward.ward_name AS `Ward`, lga.lga_name AS `LGA` FROM `polling_unit` `t` INNER JOIN lga ON polling_unit.lga_id = lga.lga_id GROUP BY polling_unit.uniqueid, announced_pu_results.polling_unit_uniqueid, polling_unit.polling_unit_number) sq in C:\yii1.1\db\CDbCommand.php:543
+Stack trace:
+#0 C:\yii1.1\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\yii1.1\db\ar\CActiveRecord.php(1609): CDbCommand->queryScalar()
+#2 C:\yii1.1\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\yii1.1\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\yii1.1\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 C:\yii1.1\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\yii1.1\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#7 C:\yii1.1\zii\widgets\CListView.php(211): CBaseListView->init()
+#8 C:\yii1.1\web\CBaseController.php(147): CListView->init()
+#9 C:\yii1.1\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#10 C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php(10): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#12 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#13 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#14 C:\yii1.1\web\CController.php(785): CController->renderPartial('pages/pollingun...', Array, true)
+#15 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(58): CController->render('pages/pollingun...', Array)
+#16 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionPollingUnit()
+#17 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\yii1.1\web\CWebApplication.php(282): CController->run('pollingunit')
+#21 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/pollinguni...')
+#22 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/index.php?r=site/pollingunit
+HTTP_REFERER=http://localhost/index.php?r=site/index
+---
+2018/02/07 09:25:10 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select polling_unit.polling_unit_name AS `PollingUnit`,SUM(CASE WHEN announced_p' at line 1. The SQL statement executed was: SELECT select polling_unit.polling_unit_name AS `PollingUnit`,SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PDP' THEN announced_pu_results.party_score END) AS 'PDP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'DPP' THEN announced_pu_results.party_score END) AS 'DPP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'ACN' THEN announced_pu_results.party_score END) AS 'ACN',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PPA' THEN announced_pu_results.party_score END) AS 'PPA',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'CDC' THEN announced_pu_results.party_score END) AS 'CDC',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'JP' THEN announced_pu_results.party_score END) AS 'JP',
+			ward.ward_name AS `Ward`, lga.lga_name AS `LGA`
+			INNER JOIN announced_pu_results ON polling_unit.uniqueid = announced_pu_results.polling_unit_uniqueid
+			INNER JOIN ward ON polling_unit.uniquewardid = ward.uniqueid
+			INNER JOIN lga ON polling_unit.lga_id = lga.lga_id
+			GROUP BY polling_unit.uniqueid, announced_pu_results.polling_unit_uniqueid, polling_unit.polling_unit_number FROM `polling_unit` `t` LIMIT 20.
+in C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php (10)
+in C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php (62)
+in C:\Apache24\htdocs\bincom\bincom\index.php (13)
+2018/02/07 09:25:10 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select polling_unit.polling_unit_name AS `PollingUnit`,SUM(CASE WHEN announced_p' at line 1. The SQL statement executed was: SELECT select polling_unit.polling_unit_name AS `PollingUnit`,SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PDP' THEN announced_pu_results.party_score END) AS 'PDP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'DPP' THEN announced_pu_results.party_score END) AS 'DPP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'ACN' THEN announced_pu_results.party_score END) AS 'ACN',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PPA' THEN announced_pu_results.party_score END) AS 'PPA',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'CDC' THEN announced_pu_results.party_score END) AS 'CDC',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'JP' THEN announced_pu_results.party_score END) AS 'JP',
+			ward.ward_name AS `Ward`, lga.lga_name AS `LGA`
+			INNER JOIN announced_pu_results ON polling_unit.uniqueid = announced_pu_results.polling_unit_uniqueid
+			INNER JOIN ward ON polling_unit.uniquewardid = ward.uniqueid
+			INNER JOIN lga ON polling_unit.lga_id = lga.lga_id
+			GROUP BY polling_unit.uniqueid, announced_pu_results.polling_unit_uniqueid, polling_unit.polling_unit_number FROM `polling_unit` `t` LIMIT 20 in C:\yii1.1\db\CDbCommand.php:543
+Stack trace:
+#0 C:\yii1.1\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\yii1.1\db\ar\CActiveRecord.php(1359): CDbCommand->queryAll()
+#2 C:\yii1.1\db\ar\CActiveRecord.php(1478): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\yii1.1\web\CActiveDataProvider.php(199): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\yii1.1\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#5 C:\yii1.1\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#6 C:\yii1.1\zii\widgets\CListView.php(211): CBaseListView->init()
+#7 C:\yii1.1\web\CBaseController.php(147): CListView->init()
+#8 C:\yii1.1\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#9 C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php(10): CBaseController->widget('zii.widgets.CLi...', Array)
+#10 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#11 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#12 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#13 C:\yii1.1\web\CController.php(785): CController->renderPartial('pages/pollingun...', Array, true)
+#14 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(62): CController->render('pages/pollingun...', Array)
+#15 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionPollingUnit()
+#16 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\yii1.1\web\CWebApplication.php(282): CController->run('pollingunit')
+#20 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/pollinguni...')
+#21 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#22 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/index.php?r=site/pollingunit
+HTTP_REFERER=http://localhost/index.php?r=site/index
+---
+2018/02/07 09:26:52 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'polling_unit.polling_unit_name' in 'field list'. The SQL statement executed was: SELECT COUNT(*) FROM (SELECT polling_unit.polling_unit_name AS `PollingUnit`,SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PDP' THEN announced_pu_results.party_score END) AS 'PDP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'DPP' THEN announced_pu_results.party_score END) AS 'DPP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'ACN' THEN announced_pu_results.party_score END) AS 'ACN',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PPA' THEN announced_pu_results.party_score END) AS 'PPA',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'CDC' THEN announced_pu_results.party_score END) AS 'CDC',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'JP' THEN announced_pu_results.party_score END) AS 'JP',
+			ward.ward_name AS `Ward`, lga.lga_name AS `LGA` FROM `polling_unit` `t` INNER JOIN lga ON polling_unit.lga_id = lga.lga_id GROUP BY polling_unit.uniqueid, announced_pu_results.polling_unit_uniqueid, polling_unit.polling_unit_number) sq.
+in C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php (10)
+in C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php (58)
+in C:\Apache24\htdocs\bincom\bincom\index.php (13)
+2018/02/07 09:26:52 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'polling_unit.polling_unit_name' in 'field list'. The SQL statement executed was: SELECT COUNT(*) FROM (SELECT polling_unit.polling_unit_name AS `PollingUnit`,SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PDP' THEN announced_pu_results.party_score END) AS 'PDP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'DPP' THEN announced_pu_results.party_score END) AS 'DPP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'ACN' THEN announced_pu_results.party_score END) AS 'ACN',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PPA' THEN announced_pu_results.party_score END) AS 'PPA',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'CDC' THEN announced_pu_results.party_score END) AS 'CDC',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'JP' THEN announced_pu_results.party_score END) AS 'JP',
+			ward.ward_name AS `Ward`, lga.lga_name AS `LGA` FROM `polling_unit` `t` INNER JOIN lga ON polling_unit.lga_id = lga.lga_id GROUP BY polling_unit.uniqueid, announced_pu_results.polling_unit_uniqueid, polling_unit.polling_unit_number) sq in C:\yii1.1\db\CDbCommand.php:543
+Stack trace:
+#0 C:\yii1.1\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\yii1.1\db\ar\CActiveRecord.php(1609): CDbCommand->queryScalar()
+#2 C:\yii1.1\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\yii1.1\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\yii1.1\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 C:\yii1.1\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\yii1.1\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#7 C:\yii1.1\zii\widgets\CListView.php(211): CBaseListView->init()
+#8 C:\yii1.1\web\CBaseController.php(147): CListView->init()
+#9 C:\yii1.1\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#10 C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php(10): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#12 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#13 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#14 C:\yii1.1\web\CController.php(785): CController->renderPartial('pages/pollingun...', Array, true)
+#15 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(58): CController->render('pages/pollingun...', Array)
+#16 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionPollingUnit()
+#17 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\yii1.1\web\CWebApplication.php(282): CController->run('pollingunit')
+#21 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/pollinguni...')
+#22 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/index.php?r=site/pollingunit
+HTTP_REFERER=http://localhost/index.php?r=site/index
+---
+2018/02/07 09:28:13 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'announced_pu_results.party_abbreviation' in 'field list'. The SQL statement executed was: SELECT COUNT(*) FROM (SELECT polling_unit_name AS `PollingUnit`,
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PDP' THEN announced_pu_results.party_score END) AS 'PDP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'DPP' THEN announced_pu_results.party_score END) AS 'DPP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'ACN' THEN announced_pu_results.party_score END) AS 'ACN',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PPA' THEN announced_pu_results.party_score END) AS 'PPA',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'CDC' THEN announced_pu_results.party_score END) AS 'CDC',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'JP' THEN announced_pu_results.party_score END) AS 'JP',
+			ward.ward_name AS `Ward`, lga.lga_name AS `LGA` FROM `polling_unit` `t` INNER JOIN lga ON lga_id = lga.lga_id GROUP BY uniqueid, announced_pu_results.polling_unit_uniqueid, polling_unit_number) sq.
+in C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php (10)
+in C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php (59)
+in C:\Apache24\htdocs\bincom\bincom\index.php (13)
+2018/02/07 09:28:13 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'announced_pu_results.party_abbreviation' in 'field list'. The SQL statement executed was: SELECT COUNT(*) FROM (SELECT polling_unit_name AS `PollingUnit`,
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PDP' THEN announced_pu_results.party_score END) AS 'PDP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'DPP' THEN announced_pu_results.party_score END) AS 'DPP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'ACN' THEN announced_pu_results.party_score END) AS 'ACN',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PPA' THEN announced_pu_results.party_score END) AS 'PPA',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'CDC' THEN announced_pu_results.party_score END) AS 'CDC',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'JP' THEN announced_pu_results.party_score END) AS 'JP',
+			ward.ward_name AS `Ward`, lga.lga_name AS `LGA` FROM `polling_unit` `t` INNER JOIN lga ON lga_id = lga.lga_id GROUP BY uniqueid, announced_pu_results.polling_unit_uniqueid, polling_unit_number) sq in C:\yii1.1\db\CDbCommand.php:543
+Stack trace:
+#0 C:\yii1.1\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\yii1.1\db\ar\CActiveRecord.php(1609): CDbCommand->queryScalar()
+#2 C:\yii1.1\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\yii1.1\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\yii1.1\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 C:\yii1.1\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\yii1.1\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#7 C:\yii1.1\zii\widgets\CListView.php(211): CBaseListView->init()
+#8 C:\yii1.1\web\CBaseController.php(147): CListView->init()
+#9 C:\yii1.1\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#10 C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php(10): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#12 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#13 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#14 C:\yii1.1\web\CController.php(785): CController->renderPartial('pages/pollingun...', Array, true)
+#15 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(59): CController->render('pages/pollingun...', Array)
+#16 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionPollingUnit()
+#17 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\yii1.1\web\CWebApplication.php(282): CController->run('pollingunit')
+#21 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/pollinguni...')
+#22 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/index.php?r=site/pollingunit
+HTTP_REFERER=http://localhost/index.php?r=site/index
+---
+2018/02/07 09:28:44 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'party_abbreviation' in 'field list'. The SQL statement executed was: SELECT COUNT(*) FROM (SELECT polling_unit_name AS `PollingUnit`,
+			SUM(CASE WHEN party_abbreviation = 'PDP' THEN announced_pu_results.party_score END) AS 'PDP',
+			SUM(CASE WHEN party_abbreviation = 'DPP' THEN announced_pu_results.party_score END) AS 'DPP',
+			SUM(CASE WHEN party_abbreviation = 'ACN' THEN announced_pu_results.party_score END) AS 'ACN',
+			SUM(CASE WHEN party_abbreviation = 'PPA' THEN announced_pu_results.party_score END) AS 'PPA',
+			SUM(CASE WHEN party_abbreviation = 'CDC' THEN announced_pu_results.party_score END) AS 'CDC',
+			SUM(CASE WHEN party_abbreviation = 'JP' THEN announced_pu_results.party_score END) AS 'JP',
+			ward.ward_name AS `Ward`, lga.lga_name AS `LGA` FROM `polling_unit` `t` INNER JOIN lga ON lga_id = lga.lga_id GROUP BY uniqueid, announced_pu_results.polling_unit_uniqueid, polling_unit_number) sq.
+in C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php (10)
+in C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php (59)
+in C:\Apache24\htdocs\bincom\bincom\index.php (13)
+2018/02/07 09:28:44 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'party_abbreviation' in 'field list'. The SQL statement executed was: SELECT COUNT(*) FROM (SELECT polling_unit_name AS `PollingUnit`,
+			SUM(CASE WHEN party_abbreviation = 'PDP' THEN announced_pu_results.party_score END) AS 'PDP',
+			SUM(CASE WHEN party_abbreviation = 'DPP' THEN announced_pu_results.party_score END) AS 'DPP',
+			SUM(CASE WHEN party_abbreviation = 'ACN' THEN announced_pu_results.party_score END) AS 'ACN',
+			SUM(CASE WHEN party_abbreviation = 'PPA' THEN announced_pu_results.party_score END) AS 'PPA',
+			SUM(CASE WHEN party_abbreviation = 'CDC' THEN announced_pu_results.party_score END) AS 'CDC',
+			SUM(CASE WHEN party_abbreviation = 'JP' THEN announced_pu_results.party_score END) AS 'JP',
+			ward.ward_name AS `Ward`, lga.lga_name AS `LGA` FROM `polling_unit` `t` INNER JOIN lga ON lga_id = lga.lga_id GROUP BY uniqueid, announced_pu_results.polling_unit_uniqueid, polling_unit_number) sq in C:\yii1.1\db\CDbCommand.php:543
+Stack trace:
+#0 C:\yii1.1\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\yii1.1\db\ar\CActiveRecord.php(1609): CDbCommand->queryScalar()
+#2 C:\yii1.1\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\yii1.1\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\yii1.1\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 C:\yii1.1\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\yii1.1\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#7 C:\yii1.1\zii\widgets\CListView.php(211): CBaseListView->init()
+#8 C:\yii1.1\web\CBaseController.php(147): CListView->init()
+#9 C:\yii1.1\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#10 C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php(10): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#12 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#13 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#14 C:\yii1.1\web\CController.php(785): CController->renderPartial('pages/pollingun...', Array, true)
+#15 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(59): CController->render('pages/pollingun...', Array)
+#16 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionPollingUnit()
+#17 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\yii1.1\web\CWebApplication.php(282): CController->run('pollingunit')
+#21 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/pollinguni...')
+#22 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/index.php?r=site/pollingunit
+HTTP_REFERER=http://localhost/index.php?r=site/index
+---
+2018/02/07 09:29:36 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'polling_unit.polling_unit_name' in 'field list'. The SQL statement executed was: SELECT COUNT(*) FROM (SELECT polling_unit.polling_unit_name AS `PollingUnit`,
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PDP' THEN announced_pu_results.party_score END) AS 'PDP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'DPP' THEN announced_pu_results.party_score END) AS 'DPP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'ACN' THEN announced_pu_results.party_score END) AS 'ACN',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PPA' THEN announced_pu_results.party_score END) AS 'PPA',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'CDC' THEN announced_pu_results.party_score END) AS 'CDC',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'JP' THEN announced_pu_results.party_score END) AS 'JP',
+			ward.ward_name AS `Ward`, lga.lga_name AS `LGA` FROM `polling_unit` `t` INNER JOIN lga ON polling_unit.lga_id = lga.lga_id GROUP BY polling_unit.uniqueid, announced_pu_results.polling_unit_uniqueid, polling_unit.polling_unit_number) sq.
+in C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php (10)
+in C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php (59)
+in C:\Apache24\htdocs\bincom\bincom\index.php (13)
+2018/02/07 09:29:36 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'polling_unit.polling_unit_name' in 'field list'. The SQL statement executed was: SELECT COUNT(*) FROM (SELECT polling_unit.polling_unit_name AS `PollingUnit`,
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PDP' THEN announced_pu_results.party_score END) AS 'PDP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'DPP' THEN announced_pu_results.party_score END) AS 'DPP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'ACN' THEN announced_pu_results.party_score END) AS 'ACN',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PPA' THEN announced_pu_results.party_score END) AS 'PPA',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'CDC' THEN announced_pu_results.party_score END) AS 'CDC',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'JP' THEN announced_pu_results.party_score END) AS 'JP',
+			ward.ward_name AS `Ward`, lga.lga_name AS `LGA` FROM `polling_unit` `t` INNER JOIN lga ON polling_unit.lga_id = lga.lga_id GROUP BY polling_unit.uniqueid, announced_pu_results.polling_unit_uniqueid, polling_unit.polling_unit_number) sq in C:\yii1.1\db\CDbCommand.php:543
+Stack trace:
+#0 C:\yii1.1\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\yii1.1\db\ar\CActiveRecord.php(1609): CDbCommand->queryScalar()
+#2 C:\yii1.1\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\yii1.1\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\yii1.1\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 C:\yii1.1\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\yii1.1\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#7 C:\yii1.1\zii\widgets\CListView.php(211): CBaseListView->init()
+#8 C:\yii1.1\web\CBaseController.php(147): CListView->init()
+#9 C:\yii1.1\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#10 C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php(10): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#12 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#13 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#14 C:\yii1.1\web\CController.php(785): CController->renderPartial('pages/pollingun...', Array, true)
+#15 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(59): CController->render('pages/pollingun...', Array)
+#16 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionPollingUnit()
+#17 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\yii1.1\web\CWebApplication.php(282): CController->run('pollingunit')
+#21 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/pollinguni...')
+#22 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/index.php?r=site/pollingunit
+HTTP_REFERER=http://localhost/index.php?r=site/index
+---
+2018/02/07 09:29:46 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'polling_unit.polling_unit_name' in 'field list'. The SQL statement executed was: SELECT COUNT(*) FROM (SELECT `polling_unit.polling_unit_name` AS `PollingUnit`,
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PDP' THEN announced_pu_results.party_score END) AS 'PDP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'DPP' THEN announced_pu_results.party_score END) AS 'DPP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'ACN' THEN announced_pu_results.party_score END) AS 'ACN',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PPA' THEN announced_pu_results.party_score END) AS 'PPA',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'CDC' THEN announced_pu_results.party_score END) AS 'CDC',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'JP' THEN announced_pu_results.party_score END) AS 'JP',
+			ward.ward_name AS `Ward`, lga.lga_name AS `LGA` FROM `polling_unit` `t` INNER JOIN lga ON polling_unit.lga_id = lga.lga_id GROUP BY polling_unit.uniqueid, announced_pu_results.polling_unit_uniqueid, polling_unit.polling_unit_number) sq.
+in C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php (10)
+in C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php (59)
+in C:\Apache24\htdocs\bincom\bincom\index.php (13)
+2018/02/07 09:29:46 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'polling_unit.polling_unit_name' in 'field list'. The SQL statement executed was: SELECT COUNT(*) FROM (SELECT `polling_unit.polling_unit_name` AS `PollingUnit`,
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PDP' THEN announced_pu_results.party_score END) AS 'PDP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'DPP' THEN announced_pu_results.party_score END) AS 'DPP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'ACN' THEN announced_pu_results.party_score END) AS 'ACN',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PPA' THEN announced_pu_results.party_score END) AS 'PPA',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'CDC' THEN announced_pu_results.party_score END) AS 'CDC',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'JP' THEN announced_pu_results.party_score END) AS 'JP',
+			ward.ward_name AS `Ward`, lga.lga_name AS `LGA` FROM `polling_unit` `t` INNER JOIN lga ON polling_unit.lga_id = lga.lga_id GROUP BY polling_unit.uniqueid, announced_pu_results.polling_unit_uniqueid, polling_unit.polling_unit_number) sq in C:\yii1.1\db\CDbCommand.php:543
+Stack trace:
+#0 C:\yii1.1\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\yii1.1\db\ar\CActiveRecord.php(1609): CDbCommand->queryScalar()
+#2 C:\yii1.1\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\yii1.1\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\yii1.1\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 C:\yii1.1\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\yii1.1\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#7 C:\yii1.1\zii\widgets\CListView.php(211): CBaseListView->init()
+#8 C:\yii1.1\web\CBaseController.php(147): CListView->init()
+#9 C:\yii1.1\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#10 C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php(10): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#12 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#13 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#14 C:\yii1.1\web\CController.php(785): CController->renderPartial('pages/pollingun...', Array, true)
+#15 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(59): CController->render('pages/pollingun...', Array)
+#16 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionPollingUnit()
+#17 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\yii1.1\web\CWebApplication.php(282): CController->run('pollingunit')
+#21 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/pollinguni...')
+#22 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/index.php?r=site/pollingunit
+HTTP_REFERER=http://localhost/index.php?r=site/index
+---
+2018/02/07 09:30:00 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'announced_pu_results.party_abbreviation' in 'field list'. The SQL statement executed was: SELECT COUNT(*) FROM (SELECT polling_unit_name AS `PollingUnit`,
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PDP' THEN announced_pu_results.party_score END) AS 'PDP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'DPP' THEN announced_pu_results.party_score END) AS 'DPP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'ACN' THEN announced_pu_results.party_score END) AS 'ACN',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PPA' THEN announced_pu_results.party_score END) AS 'PPA',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'CDC' THEN announced_pu_results.party_score END) AS 'CDC',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'JP' THEN announced_pu_results.party_score END) AS 'JP',
+			ward.ward_name AS `Ward`, lga.lga_name AS `LGA` FROM `polling_unit` `t` INNER JOIN lga ON polling_unit.lga_id = lga.lga_id GROUP BY polling_unit.uniqueid, announced_pu_results.polling_unit_uniqueid, polling_unit.polling_unit_number) sq.
+in C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php (10)
+in C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php (59)
+in C:\Apache24\htdocs\bincom\bincom\index.php (13)
+2018/02/07 09:30:00 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'announced_pu_results.party_abbreviation' in 'field list'. The SQL statement executed was: SELECT COUNT(*) FROM (SELECT polling_unit_name AS `PollingUnit`,
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PDP' THEN announced_pu_results.party_score END) AS 'PDP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'DPP' THEN announced_pu_results.party_score END) AS 'DPP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'ACN' THEN announced_pu_results.party_score END) AS 'ACN',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PPA' THEN announced_pu_results.party_score END) AS 'PPA',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'CDC' THEN announced_pu_results.party_score END) AS 'CDC',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'JP' THEN announced_pu_results.party_score END) AS 'JP',
+			ward.ward_name AS `Ward`, lga.lga_name AS `LGA` FROM `polling_unit` `t` INNER JOIN lga ON polling_unit.lga_id = lga.lga_id GROUP BY polling_unit.uniqueid, announced_pu_results.polling_unit_uniqueid, polling_unit.polling_unit_number) sq in C:\yii1.1\db\CDbCommand.php:543
+Stack trace:
+#0 C:\yii1.1\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\yii1.1\db\ar\CActiveRecord.php(1609): CDbCommand->queryScalar()
+#2 C:\yii1.1\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\yii1.1\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\yii1.1\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 C:\yii1.1\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\yii1.1\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#7 C:\yii1.1\zii\widgets\CListView.php(211): CBaseListView->init()
+#8 C:\yii1.1\web\CBaseController.php(147): CListView->init()
+#9 C:\yii1.1\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#10 C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php(10): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#12 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#13 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#14 C:\yii1.1\web\CController.php(785): CController->renderPartial('pages/pollingun...', Array, true)
+#15 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(59): CController->render('pages/pollingun...', Array)
+#16 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionPollingUnit()
+#17 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\yii1.1\web\CWebApplication.php(282): CController->run('pollingunit')
+#21 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/pollinguni...')
+#22 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/index.php?r=site/pollingunit
+HTTP_REFERER=http://localhost/index.php?r=site/index
+---
+2018/02/07 09:36:41 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'polling_unit.uniqueid' in 'on clause'. The SQL statement executed was: SELECT COUNT(*) FROM (SELECT polling_unit_name AS `PollingUnit`,
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PDP' THEN announced_pu_results.party_score END) AS 'PDP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'DPP' THEN announced_pu_results.party_score END) AS 'DPP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'ACN' THEN announced_pu_results.party_score END) AS 'ACN',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PPA' THEN announced_pu_results.party_score END) AS 'PPA',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'CDC' THEN announced_pu_results.party_score END) AS 'CDC',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'JP' THEN announced_pu_results.party_score END) AS 'JP',
+			ward.ward_name AS `Ward`, lga.lga_name AS `LGA` FROM `polling_unit` `t` INNER JOIN announced_pu_results ON polling_unit.uniqueid = announced_pu_results.polling_unit_uniqueid
+							INNER JOIN ward ON polling_unit.uniquewardid = ward.uniqueid
+							 INNER JOIN lga ON polling_unit.lga_id = lga.lga_id GROUP BY polling_unit.uniqueid, announced_pu_results.polling_unit_uniqueid, polling_unit.polling_unit_number) sq.
+in C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php (10)
+in C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php (61)
+in C:\Apache24\htdocs\bincom\bincom\index.php (13)
+2018/02/07 09:36:41 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'polling_unit.uniqueid' in 'on clause'. The SQL statement executed was: SELECT COUNT(*) FROM (SELECT polling_unit_name AS `PollingUnit`,
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PDP' THEN announced_pu_results.party_score END) AS 'PDP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'DPP' THEN announced_pu_results.party_score END) AS 'DPP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'ACN' THEN announced_pu_results.party_score END) AS 'ACN',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PPA' THEN announced_pu_results.party_score END) AS 'PPA',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'CDC' THEN announced_pu_results.party_score END) AS 'CDC',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'JP' THEN announced_pu_results.party_score END) AS 'JP',
+			ward.ward_name AS `Ward`, lga.lga_name AS `LGA` FROM `polling_unit` `t` INNER JOIN announced_pu_results ON polling_unit.uniqueid = announced_pu_results.polling_unit_uniqueid
+							INNER JOIN ward ON polling_unit.uniquewardid = ward.uniqueid
+							 INNER JOIN lga ON polling_unit.lga_id = lga.lga_id GROUP BY polling_unit.uniqueid, announced_pu_results.polling_unit_uniqueid, polling_unit.polling_unit_number) sq in C:\yii1.1\db\CDbCommand.php:543
+Stack trace:
+#0 C:\yii1.1\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\yii1.1\db\ar\CActiveRecord.php(1609): CDbCommand->queryScalar()
+#2 C:\yii1.1\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\yii1.1\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\yii1.1\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 C:\yii1.1\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\yii1.1\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#7 C:\yii1.1\zii\widgets\CListView.php(211): CBaseListView->init()
+#8 C:\yii1.1\web\CBaseController.php(147): CListView->init()
+#9 C:\yii1.1\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#10 C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php(10): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#12 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#13 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#14 C:\yii1.1\web\CController.php(785): CController->renderPartial('pages/pollingun...', Array, true)
+#15 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(61): CController->render('pages/pollingun...', Array)
+#16 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionPollingUnit()
+#17 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\yii1.1\web\CWebApplication.php(282): CController->run('pollingunit')
+#21 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/pollinguni...')
+#22 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/index.php?r=site/pollingunit
+HTTP_REFERER=http://localhost/index.php?r=site/index
+---
+2018/02/07 09:37:03 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'polling_unit.uniquewardid' in 'on clause'. The SQL statement executed was: SELECT COUNT(*) FROM (SELECT polling_unit_name AS `PollingUnit`,
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PDP' THEN announced_pu_results.party_score END) AS 'PDP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'DPP' THEN announced_pu_results.party_score END) AS 'DPP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'ACN' THEN announced_pu_results.party_score END) AS 'ACN',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PPA' THEN announced_pu_results.party_score END) AS 'PPA',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'CDC' THEN announced_pu_results.party_score END) AS 'CDC',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'JP' THEN announced_pu_results.party_score END) AS 'JP',
+			ward.ward_name AS `Ward`, lga.lga_name AS `LGA` FROM `polling_unit` `t` INNER JOIN announced_pu_results ON uniqueid = announced_pu_results.polling_unit_uniqueid
+							INNER JOIN ward ON polling_unit.uniquewardid = ward.uniqueid
+							 INNER JOIN lga ON polling_unit.lga_id = lga.lga_id GROUP BY polling_unit.uniqueid, announced_pu_results.polling_unit_uniqueid, polling_unit.polling_unit_number) sq.
+in C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php (10)
+in C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php (61)
+in C:\Apache24\htdocs\bincom\bincom\index.php (13)
+2018/02/07 09:37:03 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'polling_unit.uniquewardid' in 'on clause'. The SQL statement executed was: SELECT COUNT(*) FROM (SELECT polling_unit_name AS `PollingUnit`,
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PDP' THEN announced_pu_results.party_score END) AS 'PDP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'DPP' THEN announced_pu_results.party_score END) AS 'DPP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'ACN' THEN announced_pu_results.party_score END) AS 'ACN',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PPA' THEN announced_pu_results.party_score END) AS 'PPA',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'CDC' THEN announced_pu_results.party_score END) AS 'CDC',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'JP' THEN announced_pu_results.party_score END) AS 'JP',
+			ward.ward_name AS `Ward`, lga.lga_name AS `LGA` FROM `polling_unit` `t` INNER JOIN announced_pu_results ON uniqueid = announced_pu_results.polling_unit_uniqueid
+							INNER JOIN ward ON polling_unit.uniquewardid = ward.uniqueid
+							 INNER JOIN lga ON polling_unit.lga_id = lga.lga_id GROUP BY polling_unit.uniqueid, announced_pu_results.polling_unit_uniqueid, polling_unit.polling_unit_number) sq in C:\yii1.1\db\CDbCommand.php:543
+Stack trace:
+#0 C:\yii1.1\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\yii1.1\db\ar\CActiveRecord.php(1609): CDbCommand->queryScalar()
+#2 C:\yii1.1\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\yii1.1\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\yii1.1\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 C:\yii1.1\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\yii1.1\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#7 C:\yii1.1\zii\widgets\CListView.php(211): CBaseListView->init()
+#8 C:\yii1.1\web\CBaseController.php(147): CListView->init()
+#9 C:\yii1.1\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#10 C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php(10): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#12 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#13 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#14 C:\yii1.1\web\CController.php(785): CController->renderPartial('pages/pollingun...', Array, true)
+#15 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(61): CController->render('pages/pollingun...', Array)
+#16 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionPollingUnit()
+#17 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\yii1.1\web\CWebApplication.php(282): CController->run('pollingunit')
+#21 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/pollinguni...')
+#22 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/index.php?r=site/pollingunit
+HTTP_REFERER=http://localhost/index.php?r=site/index
+---
+2018/02/07 09:37:11 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'polling_unit.lga_id' in 'on clause'. The SQL statement executed was: SELECT COUNT(*) FROM (SELECT polling_unit_name AS `PollingUnit`,
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PDP' THEN announced_pu_results.party_score END) AS 'PDP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'DPP' THEN announced_pu_results.party_score END) AS 'DPP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'ACN' THEN announced_pu_results.party_score END) AS 'ACN',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PPA' THEN announced_pu_results.party_score END) AS 'PPA',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'CDC' THEN announced_pu_results.party_score END) AS 'CDC',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'JP' THEN announced_pu_results.party_score END) AS 'JP',
+			ward.ward_name AS `Ward`, lga.lga_name AS `LGA` FROM `polling_unit` `t` INNER JOIN announced_pu_results ON uniqueid = announced_pu_results.polling_unit_uniqueid
+							INNER JOIN ward ON uniquewardid = ward.uniqueid
+							 INNER JOIN lga ON polling_unit.lga_id = lga.lga_id GROUP BY polling_unit.uniqueid, announced_pu_results.polling_unit_uniqueid, polling_unit.polling_unit_number) sq.
+in C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php (10)
+in C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php (61)
+in C:\Apache24\htdocs\bincom\bincom\index.php (13)
+2018/02/07 09:37:11 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'polling_unit.lga_id' in 'on clause'. The SQL statement executed was: SELECT COUNT(*) FROM (SELECT polling_unit_name AS `PollingUnit`,
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PDP' THEN announced_pu_results.party_score END) AS 'PDP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'DPP' THEN announced_pu_results.party_score END) AS 'DPP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'ACN' THEN announced_pu_results.party_score END) AS 'ACN',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PPA' THEN announced_pu_results.party_score END) AS 'PPA',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'CDC' THEN announced_pu_results.party_score END) AS 'CDC',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'JP' THEN announced_pu_results.party_score END) AS 'JP',
+			ward.ward_name AS `Ward`, lga.lga_name AS `LGA` FROM `polling_unit` `t` INNER JOIN announced_pu_results ON uniqueid = announced_pu_results.polling_unit_uniqueid
+							INNER JOIN ward ON uniquewardid = ward.uniqueid
+							 INNER JOIN lga ON polling_unit.lga_id = lga.lga_id GROUP BY polling_unit.uniqueid, announced_pu_results.polling_unit_uniqueid, polling_unit.polling_unit_number) sq in C:\yii1.1\db\CDbCommand.php:543
+Stack trace:
+#0 C:\yii1.1\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\yii1.1\db\ar\CActiveRecord.php(1609): CDbCommand->queryScalar()
+#2 C:\yii1.1\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\yii1.1\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\yii1.1\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 C:\yii1.1\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\yii1.1\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#7 C:\yii1.1\zii\widgets\CListView.php(211): CBaseListView->init()
+#8 C:\yii1.1\web\CBaseController.php(147): CListView->init()
+#9 C:\yii1.1\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#10 C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php(10): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#12 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#13 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#14 C:\yii1.1\web\CController.php(785): CController->renderPartial('pages/pollingun...', Array, true)
+#15 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(61): CController->render('pages/pollingun...', Array)
+#16 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionPollingUnit()
+#17 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\yii1.1\web\CWebApplication.php(282): CController->run('pollingunit')
+#21 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/pollinguni...')
+#22 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/index.php?r=site/pollingunit
+HTTP_REFERER=http://localhost/index.php?r=site/index
+---
+2018/02/07 09:37:18 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'lga_id' in on clause is ambiguous. The SQL statement executed was: SELECT COUNT(*) FROM (SELECT polling_unit_name AS `PollingUnit`,
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PDP' THEN announced_pu_results.party_score END) AS 'PDP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'DPP' THEN announced_pu_results.party_score END) AS 'DPP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'ACN' THEN announced_pu_results.party_score END) AS 'ACN',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PPA' THEN announced_pu_results.party_score END) AS 'PPA',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'CDC' THEN announced_pu_results.party_score END) AS 'CDC',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'JP' THEN announced_pu_results.party_score END) AS 'JP',
+			ward.ward_name AS `Ward`, lga.lga_name AS `LGA` FROM `polling_unit` `t` INNER JOIN announced_pu_results ON uniqueid = announced_pu_results.polling_unit_uniqueid
+							INNER JOIN ward ON uniquewardid = ward.uniqueid
+							 INNER JOIN lga ON lga_id = lga.lga_id GROUP BY polling_unit.uniqueid, announced_pu_results.polling_unit_uniqueid, polling_unit.polling_unit_number) sq.
+in C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php (10)
+in C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php (61)
+in C:\Apache24\htdocs\bincom\bincom\index.php (13)
+2018/02/07 09:37:18 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'lga_id' in on clause is ambiguous. The SQL statement executed was: SELECT COUNT(*) FROM (SELECT polling_unit_name AS `PollingUnit`,
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PDP' THEN announced_pu_results.party_score END) AS 'PDP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'DPP' THEN announced_pu_results.party_score END) AS 'DPP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'ACN' THEN announced_pu_results.party_score END) AS 'ACN',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PPA' THEN announced_pu_results.party_score END) AS 'PPA',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'CDC' THEN announced_pu_results.party_score END) AS 'CDC',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'JP' THEN announced_pu_results.party_score END) AS 'JP',
+			ward.ward_name AS `Ward`, lga.lga_name AS `LGA` FROM `polling_unit` `t` INNER JOIN announced_pu_results ON uniqueid = announced_pu_results.polling_unit_uniqueid
+							INNER JOIN ward ON uniquewardid = ward.uniqueid
+							 INNER JOIN lga ON lga_id = lga.lga_id GROUP BY polling_unit.uniqueid, announced_pu_results.polling_unit_uniqueid, polling_unit.polling_unit_number) sq in C:\yii1.1\db\CDbCommand.php:543
+Stack trace:
+#0 C:\yii1.1\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\yii1.1\db\ar\CActiveRecord.php(1609): CDbCommand->queryScalar()
+#2 C:\yii1.1\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\yii1.1\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\yii1.1\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 C:\yii1.1\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\yii1.1\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#7 C:\yii1.1\zii\widgets\CListView.php(211): CBaseListView->init()
+#8 C:\yii1.1\web\CBaseController.php(147): CListView->init()
+#9 C:\yii1.1\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#10 C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php(10): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#12 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#13 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#14 C:\yii1.1\web\CController.php(785): CController->renderPartial('pages/pollingun...', Array, true)
+#15 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(61): CController->render('pages/pollingun...', Array)
+#16 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionPollingUnit()
+#17 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\yii1.1\web\CWebApplication.php(282): CController->run('pollingunit')
+#21 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/pollinguni...')
+#22 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/index.php?r=site/pollingunit
+HTTP_REFERER=http://localhost/index.php?r=site/index
+---
+2018/02/07 09:40:45 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42000]: Syntax error or access violation: 1142 SELECT command denied to user 'bincom_'@'localhost' for table 'announced_pu_results'. The SQL statement executed was: SELECT COUNT(*) FROM (SELECT polling_unit_name AS `PollingUnit`,
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PDP' THEN announced_pu_results.party_score END) AS 'PDP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'DPP' THEN announced_pu_results.party_score END) AS 'DPP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'ACN' THEN announced_pu_results.party_score END) AS 'ACN',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PPA' THEN announced_pu_results.party_score END) AS 'PPA',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'CDC' THEN announced_pu_results.party_score END) AS 'CDC',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'JP' THEN announced_pu_results.party_score END) AS 'JP',
+			ward.ward_name AS `Ward`, lga.lga_name AS `LGA` FROM `polling_unit` `t` INNER JOIN t.announced_pu_results ON uniqueid = announced_pu_results.polling_unit_uniqueid
+							INNER JOIN ward ON t.uniquewardid = ward.uniqueid
+							 INNER JOIN lga ON t.lga_id = lga.lga_id GROUP BY polling_unit.uniqueid, announced_pu_results.polling_unit_uniqueid, polling_unit.polling_unit_number) sq.
+in C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php (10)
+in C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php (61)
+in C:\Apache24\htdocs\bincom\bincom\index.php (13)
+2018/02/07 09:40:45 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1142 SELECT command denied to user 'bincom_'@'localhost' for table 'announced_pu_results'. The SQL statement executed was: SELECT COUNT(*) FROM (SELECT polling_unit_name AS `PollingUnit`,
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PDP' THEN announced_pu_results.party_score END) AS 'PDP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'DPP' THEN announced_pu_results.party_score END) AS 'DPP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'ACN' THEN announced_pu_results.party_score END) AS 'ACN',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PPA' THEN announced_pu_results.party_score END) AS 'PPA',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'CDC' THEN announced_pu_results.party_score END) AS 'CDC',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'JP' THEN announced_pu_results.party_score END) AS 'JP',
+			ward.ward_name AS `Ward`, lga.lga_name AS `LGA` FROM `polling_unit` `t` INNER JOIN t.announced_pu_results ON uniqueid = announced_pu_results.polling_unit_uniqueid
+							INNER JOIN ward ON t.uniquewardid = ward.uniqueid
+							 INNER JOIN lga ON t.lga_id = lga.lga_id GROUP BY polling_unit.uniqueid, announced_pu_results.polling_unit_uniqueid, polling_unit.polling_unit_number) sq in C:\yii1.1\db\CDbCommand.php:543
+Stack trace:
+#0 C:\yii1.1\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\yii1.1\db\ar\CActiveRecord.php(1609): CDbCommand->queryScalar()
+#2 C:\yii1.1\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\yii1.1\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\yii1.1\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 C:\yii1.1\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\yii1.1\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#7 C:\yii1.1\zii\widgets\CListView.php(211): CBaseListView->init()
+#8 C:\yii1.1\web\CBaseController.php(147): CListView->init()
+#9 C:\yii1.1\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#10 C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php(10): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#12 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#13 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#14 C:\yii1.1\web\CController.php(785): CController->renderPartial('pages/pollingun...', Array, true)
+#15 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(61): CController->render('pages/pollingun...', Array)
+#16 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionPollingUnit()
+#17 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\yii1.1\web\CWebApplication.php(282): CController->run('pollingunit')
+#21 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/pollinguni...')
+#22 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/index.php?r=site/pollingunit
+HTTP_REFERER=http://localhost/index.php?r=site/index
+---
+2018/02/07 09:52:49 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'polling_unit.uniqueid' in 'group statement'. The SQL statement executed was: SELECT COUNT(*) FROM (SELECT polling_unit_name AS `PollingUnit`,
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PDP' THEN announced_pu_results.party_score END) AS 'PDP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'DPP' THEN announced_pu_results.party_score END) AS 'DPP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'ACN' THEN announced_pu_results.party_score END) AS 'ACN',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PPA' THEN announced_pu_results.party_score END) AS 'PPA',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'CDC' THEN announced_pu_results.party_score END) AS 'CDC',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'JP' THEN announced_pu_results.party_score END) AS 'JP',
+			ward.ward_name AS `Ward`, lga.lga_name AS `LGA` FROM `polling_unit` `t` INNER JOIN announced_pu_results ON t.uniqueid = announced_pu_results.polling_unit_uniqueid
+							INNER JOIN ward ON t.uniquewardid = ward.uniqueid
+							 INNER JOIN lga ON t.lga_id = lga.lga_id GROUP BY polling_unit.uniqueid, announced_pu_results.polling_unit_uniqueid, polling_unit.polling_unit_number) sq.
+in C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php (10)
+in C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php (61)
+in C:\Apache24\htdocs\bincom\bincom\index.php (13)
+2018/02/07 09:52:49 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'polling_unit.uniqueid' in 'group statement'. The SQL statement executed was: SELECT COUNT(*) FROM (SELECT polling_unit_name AS `PollingUnit`,
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PDP' THEN announced_pu_results.party_score END) AS 'PDP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'DPP' THEN announced_pu_results.party_score END) AS 'DPP',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'ACN' THEN announced_pu_results.party_score END) AS 'ACN',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'PPA' THEN announced_pu_results.party_score END) AS 'PPA',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'CDC' THEN announced_pu_results.party_score END) AS 'CDC',
+			SUM(CASE WHEN announced_pu_results.party_abbreviation = 'JP' THEN announced_pu_results.party_score END) AS 'JP',
+			ward.ward_name AS `Ward`, lga.lga_name AS `LGA` FROM `polling_unit` `t` INNER JOIN announced_pu_results ON t.uniqueid = announced_pu_results.polling_unit_uniqueid
+							INNER JOIN ward ON t.uniquewardid = ward.uniqueid
+							 INNER JOIN lga ON t.lga_id = lga.lga_id GROUP BY polling_unit.uniqueid, announced_pu_results.polling_unit_uniqueid, polling_unit.polling_unit_number) sq in C:\yii1.1\db\CDbCommand.php:543
+Stack trace:
+#0 C:\yii1.1\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\yii1.1\db\ar\CActiveRecord.php(1609): CDbCommand->queryScalar()
+#2 C:\yii1.1\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\yii1.1\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\yii1.1\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 C:\yii1.1\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\yii1.1\zii\widgets\CBaseListView.php(125): CDataProvider->getData()
+#7 C:\yii1.1\zii\widgets\CListView.php(211): CBaseListView->init()
+#8 C:\yii1.1\web\CBaseController.php(147): CListView->init()
+#9 C:\yii1.1\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#10 C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\PollingUnitResults.php(10): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#12 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#13 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#14 C:\yii1.1\web\CController.php(785): CController->renderPartial('pages/pollingun...', Array, true)
+#15 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(61): CController->render('pages/pollingun...', Array)
+#16 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionPollingUnit()
+#17 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\yii1.1\web\CWebApplication.php(282): CController->run('pollingunit')
+#21 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/pollinguni...')
+#22 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/index.php?r=site/pollingunit
+HTTP_REFERER=http://localhost/index.php?r=site/index
+---
+2018/02/07 09:57:47 [error] [exception.CException] CException: Property "PollingUnit.PollingUnit" is not defined. in C:\yii1.1\base\CComponent.php:130
+Stack trace:
+#0 C:\yii1.1\db\ar\CActiveRecord.php(145): CComponent->__get('PollingUnit')
+#1 C:\Apache24\htdocs\bincom\bincom\protected\views\site\view.php(3): CActiveRecord->__get('PollingUnit')
+#2 C:\yii1.1\web\CBaseController.php(130): require('C:\\Apache24\\htd...')
+#3 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, false)
+#4 C:\yii1.1\zii\widgets\CListView.php(291): CBaseController->renderFile('C:\\Apache24\\htd...', Array)
+#5 C:\yii1.1\zii\widgets\CBaseListView.php(181): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 C:\yii1.1\zii\widgets\CBaseListView.php(164): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{sort...')
+#8 C:\yii1.1\zii\widgets\CBaseListView.php(149): CBaseListView->renderContent()
+#9 C:\yii1.1\web\CBaseController.php(182): CBaseListView->run()
+#10 C:\Apache24\htdocs\bincom\bincom\protected\views\site\PollingUnitResults.php(10): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#12 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#13 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#14 C:\yii1.1\web\CController.php(785): CController->renderPartial('pollingunitresu...', Array, true)
+#15 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(62): CController->render('pollingunitresu...', Array)
+#16 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionPollingUnit()
+#17 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\yii1.1\web\CWebApplication.php(282): CController->run('pollingunit')
+#21 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/pollinguni...')
+#22 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/index.php?r=site/pollingunit
+HTTP_REFERER=http://localhost/index.php?
+---
+2018/02/07 09:59:35 [error] [exception.CException] CException: Property "PollingUnit.Unit" is not defined. in C:\yii1.1\base\CComponent.php:130
+Stack trace:
+#0 C:\yii1.1\db\ar\CActiveRecord.php(145): CComponent->__get('Unit')
+#1 C:\Apache24\htdocs\bincom\bincom\protected\views\site\view.php(3): CActiveRecord->__get('Unit')
+#2 C:\yii1.1\web\CBaseController.php(130): require('C:\\Apache24\\htd...')
+#3 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, false)
+#4 C:\yii1.1\zii\widgets\CListView.php(291): CBaseController->renderFile('C:\\Apache24\\htd...', Array)
+#5 C:\yii1.1\zii\widgets\CBaseListView.php(181): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 C:\yii1.1\zii\widgets\CBaseListView.php(164): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{sort...')
+#8 C:\yii1.1\zii\widgets\CBaseListView.php(149): CBaseListView->renderContent()
+#9 C:\yii1.1\web\CBaseController.php(182): CBaseListView->run()
+#10 C:\Apache24\htdocs\bincom\bincom\protected\views\site\PollingUnitResults.php(10): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#12 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#13 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#14 C:\yii1.1\web\CController.php(785): CController->renderPartial('pollingunitresu...', Array, true)
+#15 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(62): CController->render('pollingunitresu...', Array)
+#16 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionPollingUnit()
+#17 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\yii1.1\web\CWebApplication.php(282): CController->run('pollingunit')
+#21 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/pollinguni...')
+#22 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/index.php?r=site/pollingunit
+HTTP_REFERER=http://localhost/index.php?
+---
+2018/02/07 10:01:33 [error] [exception.CException] CException: Property "PollingUnit.Unit" is not defined. in C:\yii1.1\base\CComponent.php:130
+Stack trace:
+#0 C:\yii1.1\db\ar\CActiveRecord.php(145): CComponent->__get('Unit')
+#1 C:\Apache24\htdocs\bincom\bincom\protected\views\site\view.php(3): CActiveRecord->__get('Unit')
+#2 C:\yii1.1\web\CBaseController.php(130): require('C:\\Apache24\\htd...')
+#3 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, false)
+#4 C:\yii1.1\zii\widgets\CListView.php(291): CBaseController->renderFile('C:\\Apache24\\htd...', Array)
+#5 C:\yii1.1\zii\widgets\CBaseListView.php(181): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 C:\yii1.1\zii\widgets\CBaseListView.php(164): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{sort...')
+#8 C:\yii1.1\zii\widgets\CBaseListView.php(149): CBaseListView->renderContent()
+#9 C:\yii1.1\web\CBaseController.php(182): CBaseListView->run()
+#10 C:\Apache24\htdocs\bincom\bincom\protected\views\site\PollingUnitResults.php(10): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#12 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#13 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#14 C:\yii1.1\web\CController.php(785): CController->renderPartial('pollingunitresu...', Array, true)
+#15 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(62): CController->render('pollingunitresu...', Array)
+#16 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionPollingUnit()
+#17 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\yii1.1\web\CWebApplication.php(282): CController->run('pollingunit')
+#21 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/pollinguni...')
+#22 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/index.php?r=site/pollingunit
+HTTP_REFERER=http://localhost/index.php?
+---
+2018/02/07 10:07:17 [error] [exception.CException] CException: Property "CGridView.itemView" is not defined. in C:\yii1.1\base\CComponent.php:173
+Stack trace:
+#0 C:\yii1.1\web\CWidgetFactory.php(161): CComponent->__set('itemView', 'view')
+#1 C:\yii1.1\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'CGridView', Array)
+#2 C:\yii1.1\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 C:\Apache24\htdocs\bincom\bincom\protected\views\site\PollingUnitResults.php(10): CBaseController->widget('zii.widgets.gri...', Array)
+#4 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#5 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#6 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#7 C:\yii1.1\web\CController.php(785): CController->renderPartial('pollingunitresu...', Array, true)
+#8 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(62): CController->render('pollingunitresu...', Array)
+#9 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionPollingUnit()
+#10 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\yii1.1\web\CWebApplication.php(282): CController->run('pollingunit')
+#14 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/pollinguni...')
+#15 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php?r=site/pollingunit
+HTTP_REFERER=http://localhost/index.php?
+---
+2018/02/07 10:18:39 [error] [exception.CException] CException: Property "CGridView.data" is not defined. in C:\yii1.1\base\CComponent.php:173
+Stack trace:
+#0 C:\yii1.1\web\CWidgetFactory.php(161): CComponent->__set('data', Object(CActiveDataProvider))
+#1 C:\yii1.1\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'CGridView', Array)
+#2 C:\yii1.1\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 C:\Apache24\htdocs\bincom\bincom\protected\views\site\PollingUnitResults.php(14): CBaseController->widget('zii.widgets.gri...', Array)
+#4 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#5 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#6 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#7 C:\yii1.1\web\CController.php(785): CController->renderPartial('pollingunitresu...', Array, true)
+#8 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(62): CController->render('pollingunitresu...', Array)
+#9 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionPollingUnit()
+#10 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\yii1.1\web\CWebApplication.php(282): CController->run('pollingunit')
+#14 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/pollinguni...')
+#15 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php?r=site/pollingunit
+HTTP_REFERER=http://localhost/index.php?
+---
+2018/02/07 10:19:04 [error] [exception.CException] CException: Property "CDetailView.columns" is not defined. in C:\yii1.1\base\CComponent.php:173
+Stack trace:
+#0 C:\yii1.1\web\CWidgetFactory.php(161): CComponent->__set('columns', Array)
+#1 C:\yii1.1\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'CDetailView', Array)
+#2 C:\yii1.1\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.CDe...', Array)
+#3 C:\Apache24\htdocs\bincom\bincom\protected\views\site\PollingUnitResults.php(14): CBaseController->widget('zii.widgets.CDe...', Array)
+#4 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#5 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#6 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#7 C:\yii1.1\web\CController.php(785): CController->renderPartial('pollingunitresu...', Array, true)
+#8 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(62): CController->render('pollingunitresu...', Array)
+#9 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionPollingUnit()
+#10 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\yii1.1\web\CWebApplication.php(282): CController->run('pollingunit')
+#14 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/pollinguni...')
+#15 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php?r=site/pollingunit
+HTTP_REFERER=http://localhost/index.php?
+---
+2018/02/07 10:36:42 [error] [exception.CException] CException: The column must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional. in C:\yii1.1\zii\widgets\grid\CGridView.php:413
+Stack trace:
+#0 C:\yii1.1\zii\widgets\grid\CGridView.php(383): CGridView->createDataColumn('Polling Unit')
+#1 C:\yii1.1\zii\widgets\grid\CGridView.php(359): CGridView->initColumns()
+#2 C:\yii1.1\web\CBaseController.php(147): CGridView->init()
+#3 C:\yii1.1\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.gri...', Array)
+#4 C:\Apache24\htdocs\bincom\bincom\protected\views\site\PollingUnitResults.php(9): CBaseController->widget('zii.widgets.gri...', Array)
+#5 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#6 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#7 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#8 C:\yii1.1\web\CController.php(785): CController->renderPartial('pollingunitresu...', Array, true)
+#9 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(93): CController->render('pollingunitresu...', Array)
+#10 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionPollingUnit()
+#11 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\yii1.1\web\CWebApplication.php(282): CController->run('pollingunit')
+#15 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/pollinguni...')
+#16 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php?r=site/pollingunit
+HTTP_REFERER=http://localhost/index.php?
+---
+2018/02/07 10:37:51 [error] [exception.Error] Error: Call to a member function search() on null in C:\Apache24\htdocs\bincom\bincom\protected\views\site\PollingUnitResults.php:9
+Stack trace:
+#0 C:\yii1.1\web\CBaseController.php(126): require()
+#1 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#2 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#3 C:\yii1.1\web\CController.php(785): CController->renderPartial('pollingunitresu...', Array, true)
+#4 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(93): CController->render('pollingunitresu...', Array)
+#5 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionPollingUnit()
+#6 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\yii1.1\web\CWebApplication.php(282): CController->run('pollingunit')
+#10 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/pollinguni...')
+#11 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php?r=site/pollingunit
+HTTP_REFERER=http://localhost/index.php?
+---
+2018/02/07 11:59:13 [error] [exception.Error] Error: Call to a member function getAttributeLabel() on null in C:\yii1.1\web\helpers\CHtml.php:1495
+Stack trace:
+#0 C:\yii1.1\web\widgets\CActiveForm.php(585): CHtml::activeLabel(NULL, 'lga', Array)
+#1 C:\Apache24\htdocs\bincom\bincom\protected\views\site\_searchfilterstates.php(9): CActiveForm->label(NULL, 'lga')
+#2 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#3 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#4 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#5 C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\lgaresults.php(10): CController->renderPartial('_searchfilterst...', Array)
+#6 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#7 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', NULL, true)
+#8 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', NULL, true)
+#9 C:\yii1.1\web\CController.php(785): CController->renderPartial('pages/lgaresult...', NULL, true)
+#10 C:\yii1.1\web\actions\CViewAction.php(140): CController->render('pages/lgaresult...')
+#11 C:\yii1.1\web\actions\CAction.php(76): CViewAction->run()
+#12 C:\yii1.1\web\CController.php(308): CAction->runWithParams(Array)
+#13 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CViewAction))
+#14 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 C:\yii1.1\web\CWebApplication.php(282): CController->run('page')
+#16 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php?r=site/page&view=lgaresults
+HTTP_REFERER=http://localhost/index.php?r=site/pollingunit
+---
+2018/02/07 11:59:29 [error] [exception.Error] Error: Call to a member function getAttributeLabel() on null in C:\yii1.1\web\helpers\CHtml.php:1495
+Stack trace:
+#0 C:\yii1.1\web\widgets\CActiveForm.php(585): CHtml::activeLabel(NULL, 'lga', Array)
+#1 C:\Apache24\htdocs\bincom\bincom\protected\views\site\_searchfilterstates.php(9): CActiveForm->label(NULL, 'lga')
+#2 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#3 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#4 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#5 C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\lgaresults.php(10): CController->renderPartial('_searchfilterst...', Array)
+#6 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#7 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', NULL, true)
+#8 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', NULL, true)
+#9 C:\yii1.1\web\CController.php(785): CController->renderPartial('pages/lgaresult...', NULL, true)
+#10 C:\yii1.1\web\actions\CViewAction.php(140): CController->render('pages/lgaresult...')
+#11 C:\yii1.1\web\actions\CAction.php(76): CViewAction->run()
+#12 C:\yii1.1\web\CController.php(308): CAction->runWithParams(Array)
+#13 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CViewAction))
+#14 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 C:\yii1.1\web\CWebApplication.php(282): CController->run('page')
+#16 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php?r=site/page&view=lgaresults
+HTTP_REFERER=http://localhost/index.php?r=site/pollingunit
+---
+2018/02/07 11:59:54 [error] [exception.Error] Error: Call to a member function getAttributeLabel() on null in C:\yii1.1\web\helpers\CHtml.php:1495
+Stack trace:
+#0 C:\yii1.1\web\widgets\CActiveForm.php(585): CHtml::activeLabel(NULL, 'lga', Array)
+#1 C:\Apache24\htdocs\bincom\bincom\protected\views\site\_searchfilterstates.php(9): CActiveForm->label(NULL, 'lga')
+#2 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#3 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', NULL, true)
+#4 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', NULL, true)
+#5 C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\lgaresults.php(9): CController->renderPartial('_searchfilterst...')
+#6 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#7 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', NULL, true)
+#8 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', NULL, true)
+#9 C:\yii1.1\web\CController.php(785): CController->renderPartial('pages/lgaresult...', NULL, true)
+#10 C:\yii1.1\web\actions\CViewAction.php(140): CController->render('pages/lgaresult...')
+#11 C:\yii1.1\web\actions\CAction.php(76): CViewAction->run()
+#12 C:\yii1.1\web\CController.php(308): CAction->runWithParams(Array)
+#13 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CViewAction))
+#14 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 C:\yii1.1\web\CWebApplication.php(282): CController->run('page')
+#16 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php?r=site/page&view=lgaresults
+HTTP_REFERER=http://localhost/index.php?r=site/pollingunit
+---
+2018/02/07 12:05:36 [error] [exception.Error] Error: Call to a member function getAttributeLabel() on null in C:\yii1.1\web\helpers\CHtml.php:1495
+Stack trace:
+#0 C:\yii1.1\web\widgets\CActiveForm.php(585): CHtml::activeLabel(NULL, 'lga', Array)
+#1 C:\Apache24\htdocs\bincom\bincom\protected\views\site\_searchfilterstates.php(9): CActiveForm->label(NULL, 'lga')
+#2 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#3 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#4 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#5 C:\Apache24\htdocs\bincom\bincom\protected\views\site\pages\lgaresults.php(10): CController->renderPartial('_searchfilterst...', Array)
+#6 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#7 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', NULL, true)
+#8 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', NULL, true)
+#9 C:\yii1.1\web\CController.php(785): CController->renderPartial('pages/lgaresult...', NULL, true)
+#10 C:\yii1.1\web\actions\CViewAction.php(140): CController->render('pages/lgaresult...')
+#11 C:\yii1.1\web\actions\CAction.php(76): CViewAction->run()
+#12 C:\yii1.1\web\CController.php(308): CAction->runWithParams(Array)
+#13 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CViewAction))
+#14 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#15 C:\yii1.1\web\CWebApplication.php(282): CController->run('page')
+#16 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#17 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php?r=site/page&view=lgaresults
+HTTP_REFERER=http://localhost/index.php?r=site/pollingunit
+---
+2018/02/07 12:06:03 [error] [exception.CException] CException: SiteController cannot find the requested view "lgaresults". in C:\yii1.1\web\CController.php:881
+Stack trace:
+#0 C:\yii1.1\web\CController.php(785): CController->renderPartial('lgaresults', Array, true)
+#1 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(69): CController->render('lgaresults', Array)
+#2 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionLGAResults()
+#3 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\yii1.1\web\CWebApplication.php(282): CController->run('lgaresults')
+#7 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/lgaresults')
+#8 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/lgaresults
+HTTP_REFERER=http://localhost/index.php?r=site/pollingunit
+---
+2018/02/07 12:06:37 [error] [exception.Error] Error: Call to a member function getAttributeLabel() on null in C:\yii1.1\web\helpers\CHtml.php:1495
+Stack trace:
+#0 C:\yii1.1\web\widgets\CActiveForm.php(585): CHtml::activeLabel(NULL, 'lga', Array)
+#1 C:\Apache24\htdocs\bincom\bincom\protected\views\site\_searchfilterstates.php(9): CActiveForm->label(NULL, 'lga')
+#2 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#3 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#4 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#5 C:\Apache24\htdocs\bincom\bincom\protected\views\site\lgaresults.php(10): CController->renderPartial('_searchfilterst...', Array)
+#6 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#7 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#8 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#9 C:\yii1.1\web\CController.php(785): CController->renderPartial('lgaresults', Array, true)
+#10 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(69): CController->render('lgaresults', Array)
+#11 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionLGAResults()
+#12 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\yii1.1\web\CWebApplication.php(282): CController->run('lgaresults')
+#16 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/lgaresults')
+#17 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php?r=site/lgaresults
+HTTP_REFERER=http://localhost/index.php?r=site/pollingunit
+---
+2018/02/07 12:07:40 [error] [exception.Error] Error: Call to a member function getAttributeLabel() on null in C:\yii1.1\web\helpers\CHtml.php:1495
+Stack trace:
+#0 C:\yii1.1\web\widgets\CActiveForm.php(585): CHtml::activeLabel(NULL, 'Lga', Array)
+#1 C:\Apache24\htdocs\bincom\bincom\protected\views\site\_searchfilterstates.php(9): CActiveForm->label(NULL, 'Lga')
+#2 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#3 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#4 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#5 C:\Apache24\htdocs\bincom\bincom\protected\views\site\lgaresults.php(10): CController->renderPartial('_searchfilterst...', Array)
+#6 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#7 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#8 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#9 C:\yii1.1\web\CController.php(785): CController->renderPartial('lgaresults', Array, true)
+#10 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(69): CController->render('lgaresults', Array)
+#11 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionLGAResults()
+#12 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\yii1.1\web\CWebApplication.php(282): CController->run('lgaresults')
+#16 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/lgaresults')
+#17 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php?r=site/lgaresults
+HTTP_REFERER=http://localhost/index.php?r=site/pollingunit
+---
+2018/02/07 12:07:44 [error] [exception.Error] Error: Call to a member function getAttributeLabel() on null in C:\yii1.1\web\helpers\CHtml.php:1495
+Stack trace:
+#0 C:\yii1.1\web\widgets\CActiveForm.php(585): CHtml::activeLabel(NULL, 'Lga', Array)
+#1 C:\Apache24\htdocs\bincom\bincom\protected\views\site\_searchfilterstates.php(9): CActiveForm->label(NULL, 'Lga')
+#2 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#3 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#4 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#5 C:\Apache24\htdocs\bincom\bincom\protected\views\site\lgaresults.php(10): CController->renderPartial('_searchfilterst...', Array)
+#6 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#7 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#8 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#9 C:\yii1.1\web\CController.php(785): CController->renderPartial('lgaresults', Array, true)
+#10 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(69): CController->render('lgaresults', Array)
+#11 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionLGAResults()
+#12 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\yii1.1\web\CWebApplication.php(282): CController->run('lgaresults')
+#16 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/lgaresults')
+#17 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php?r=site/lgaresults
+HTTP_REFERER=http://localhost/index.php?r=site/pollingunit
+---
+2018/02/07 12:08:12 [error] [exception.Error] Error: Call to a member function getError() on null in C:\yii1.1\web\helpers\CHtml.php:2254
+Stack trace:
+#0 C:\yii1.1\web\widgets\CActiveForm.php(455): CHtml::error(NULL, 'lga', Array)
+#1 C:\Apache24\htdocs\bincom\bincom\protected\views\site\_searchfilterstates.php(22): CActiveForm->error(NULL, 'lga')
+#2 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#3 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#4 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#5 C:\Apache24\htdocs\bincom\bincom\protected\views\site\lgaresults.php(10): CController->renderPartial('_searchfilterst...', Array)
+#6 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#7 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#8 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#9 C:\yii1.1\web\CController.php(785): CController->renderPartial('lgaresults', Array, true)
+#10 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(69): CController->render('lgaresults', Array)
+#11 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionLGAResults()
+#12 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\yii1.1\web\CWebApplication.php(282): CController->run('lgaresults')
+#16 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/lgaresults')
+#17 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php?r=site/lgaresults
+HTTP_REFERER=http://localhost/index.php?r=site/pollingunit
+---
+2018/02/07 12:33:30 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group by lga.lga_id' at line 5. The SQL statement executed was: SELECT lga.lga_name AS LGA, SUM(announced_pu_results.party_score) AS Total from lga 
+				join polling_unit ON lga.lga_id = polling_unit.lga_id
+				join announced_pu_results ON polling_unit.uniqueid = announced_pu_results.polling_unit_uniqueid
+				where lga.lga_id = 
+				group by lga.lga_id.
+in C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php (47)
+in C:\Apache24\htdocs\bincom\bincom\index.php (13)
+2018/02/07 12:33:30 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group by lga.lga_id' at line 5. The SQL statement executed was: SELECT lga.lga_name AS LGA, SUM(announced_pu_results.party_score) AS Total from lga 
+				join polling_unit ON lga.lga_id = polling_unit.lga_id
+				join announced_pu_results ON polling_unit.uniqueid = announced_pu_results.polling_unit_uniqueid
+				where lga.lga_id = 
+				group by lga.lga_id in C:\yii1.1\db\CDbCommand.php:358
+Stack trace:
+#0 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(47): CDbCommand->execute()
+#1 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionLGAResults()
+#2 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\yii1.1\web\CWebApplication.php(282): CController->run('lgaresults')
+#6 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/lgaresults')
+#7 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php?r=site/lgaresults
+HTTP_REFERER=http://localhost/index.php?r=site/pollingunit
+---
+2018/02/07 12:44:50 [error] [exception.CException] CException: The "dataProvider" property cannot be empty. in C:\yii1.1\zii\widgets\CBaseListView.php:123
+Stack trace:
+#0 C:\yii1.1\zii\widgets\grid\CGridView.php(339): CBaseListView->init()
+#1 C:\yii1.1\web\CBaseController.php(147): CGridView->init()
+#2 C:\yii1.1\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 C:\Apache24\htdocs\bincom\bincom\protected\views\site\lgaresults.php(15): CBaseController->widget('zii.widgets.gri...', Array)
+#4 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#5 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#6 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#7 C:\yii1.1\web\CController.php(785): CController->renderPartial('lgaresults', Array, true)
+#8 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(60): CController->render('lgaresults', Array)
+#9 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionLGAResults()
+#10 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\yii1.1\web\CWebApplication.php(282): CController->run('lgaresults')
+#14 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/lgaresults')
+#15 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php?r=site/lgaresults
+HTTP_REFERER=http://localhost/index.php?r=site/pollingunit
+---
+2018/02/07 12:45:38 [error] [exception.CException] CException: The "dataProvider" property cannot be empty. in C:\yii1.1\zii\widgets\CBaseListView.php:123
+Stack trace:
+#0 C:\yii1.1\zii\widgets\grid\CGridView.php(339): CBaseListView->init()
+#1 C:\yii1.1\web\CBaseController.php(147): CGridView->init()
+#2 C:\yii1.1\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 C:\Apache24\htdocs\bincom\bincom\protected\views\site\lgaresults.php(15): CBaseController->widget('zii.widgets.gri...', Array)
+#4 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#5 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#6 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#7 C:\yii1.1\web\CController.php(785): CController->renderPartial('lgaresults', Array, true)
+#8 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(60): CController->render('lgaresults', Array)
+#9 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionLGAResults()
+#10 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\yii1.1\web\CWebApplication.php(282): CController->run('lgaresults')
+#14 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/lgaresults')
+#15 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php?r=site/lgaresults
+HTTP_REFERER=http://localhost/index.php?r=site/pollingunit
+---
+2018/02/07 12:47:29 [error] [exception.CException] CException: The "dataProvider" property cannot be empty. in C:\yii1.1\zii\widgets\CBaseListView.php:123
+Stack trace:
+#0 C:\yii1.1\zii\widgets\grid\CGridView.php(339): CBaseListView->init()
+#1 C:\yii1.1\web\CBaseController.php(147): CGridView->init()
+#2 C:\yii1.1\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 C:\Apache24\htdocs\bincom\bincom\protected\views\site\lgaresults.php(15): CBaseController->widget('zii.widgets.gri...', Array)
+#4 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#5 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#6 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#7 C:\yii1.1\web\CController.php(785): CController->renderPartial('lgaresults', Array, true)
+#8 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(60): CController->render('lgaresults', Array)
+#9 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionLGAResults()
+#10 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\yii1.1\web\CWebApplication.php(282): CController->run('lgaresults')
+#14 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/lgaresults')
+#15 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php?r=site/lgaresults
+HTTP_REFERER=http://localhost/index.php?r=site/pollingunit
+---
+2018/02/07 12:48:17 [error] [exception.CException] CException: CArrayDataProvider and its behaviors do not have a method or closure named "getValidators". in C:\yii1.1\base\CComponent.php:266
+Stack trace:
+#0 C:\yii1.1\web\helpers\CHtml.php(2454): CComponent->__call('getValidators', Array)
+#1 C:\yii1.1\web\helpers\CHtml.php(1540): CHtml::activeInputField('text', Object(CArrayDataProvider), 'LGA', Array)
+#2 C:\yii1.1\zii\widgets\grid\CDataColumn.php(104): CHtml::activeTextField(Object(CArrayDataProvider), 'LGA', Array)
+#3 C:\yii1.1\zii\widgets\grid\CGridColumn.php(253): CDataColumn->getFilterCellContent()
+#4 C:\yii1.1\zii\widgets\grid\CGridColumn.php(119): CGridColumn->renderFilterCellContent()
+#5 C:\yii1.1\zii\widgets\grid\CGridView.php(539): CGridColumn->renderFilterCell()
+#6 C:\yii1.1\zii\widgets\grid\CGridView.php(517): CGridView->renderFilter()
+#7 C:\yii1.1\zii\widgets\grid\CGridView.php(487): CGridView->renderTableHeader()
+#8 C:\yii1.1\zii\widgets\CBaseListView.php(181): CGridView->renderItems()
+#9 [internal function]: CBaseListView->renderSection(Array)
+#10 C:\yii1.1\zii\widgets\CBaseListView.php(164): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{item...')
+#11 C:\yii1.1\zii\widgets\CBaseListView.php(149): CBaseListView->renderContent()
+#12 C:\yii1.1\web\CBaseController.php(182): CBaseListView->run()
+#13 C:\Apache24\htdocs\bincom\bincom\protected\views\site\lgaresults.php(15): CBaseController->widget('zii.widgets.gri...', Array)
+#14 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#15 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#16 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#17 C:\yii1.1\web\CController.php(785): CController->renderPartial('lgaresults', Array, true)
+#18 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(60): CController->render('lgaresults', Array)
+#19 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionLGAResults()
+#20 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#21 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#22 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\yii1.1\web\CWebApplication.php(282): CController->run('lgaresults')
+#24 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/lgaresults')
+#25 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#26 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php?r=site/lgaresults
+---
+2018/02/07 12:49:05 [error] [exception.CException] CException: The "dataProvider" property cannot be empty. in C:\yii1.1\zii\widgets\CBaseListView.php:123
+Stack trace:
+#0 C:\yii1.1\zii\widgets\grid\CGridView.php(339): CBaseListView->init()
+#1 C:\yii1.1\web\CBaseController.php(147): CGridView->init()
+#2 C:\yii1.1\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 C:\Apache24\htdocs\bincom\bincom\protected\views\site\lgaresults.php(15): CBaseController->widget('zii.widgets.gri...', Array)
+#4 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#5 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#6 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#7 C:\yii1.1\web\CController.php(785): CController->renderPartial('lgaresults', Array, true)
+#8 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(60): CController->render('lgaresults', Array)
+#9 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionLGAResults()
+#10 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\yii1.1\web\CWebApplication.php(282): CController->run('lgaresults')
+#14 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/lgaresults')
+#15 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php?r=site/lgaresults
+---
+2018/02/07 12:53:32 [error] [exception.CException] CException: Property "CActiveForm.class" is not defined. in C:\yii1.1\base\CComponent.php:173
+Stack trace:
+#0 C:\yii1.1\web\CWidgetFactory.php(161): CComponent->__set('class', 'results')
+#1 C:\yii1.1\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'CActiveForm', Array)
+#2 C:\yii1.1\web\CBaseController.php(198): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\Apache24\htdocs\bincom\bincom\protected\views\site\_searchfilterstates.php(6): CBaseController->beginWidget('CActiveForm', Array)
+#4 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#5 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#6 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#7 C:\Apache24\htdocs\bincom\bincom\protected\views\site\lgaresults.php(16): CController->renderPartial('_searchfilterst...', Array)
+#8 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#9 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#10 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#11 C:\yii1.1\web\CController.php(785): CController->renderPartial('lgaresults', Array, true)
+#12 C:\Apache24\htdocs\bincom\bincom\protected\controllers\SiteController.php(60): CController->render('lgaresults', Array)
+#13 C:\yii1.1\web\actions\CInlineAction.php(49): SiteController->actionLGAResults()
+#14 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\yii1.1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\yii1.1\web\CWebApplication.php(282): CController->run('lgaresults')
+#18 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/lgaresults')
+#19 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php?r=site/lgaresults
+HTTP_REFERER=http://localhost/index.php?r=site/pollingunit
+---
+2018/02/07 13:21:37 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "announcedPuResults". in C:\yii1.1\web\CController.php:486
+Stack trace:
+#0 C:\yii1.1\web\CController.php(270): CController->missingAction('announcedPuResu...')
+#1 C:\yii1.1\web\CWebApplication.php(282): CController->run('announcedPuResu...')
+#2 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('site/announcedP...')
+#3 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/announcedPuResults
+HTTP_REFERER=http://localhost/index.php?r=site/lgaresults
+---
+2018/02/07 15:12:50 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "Gii". in C:\yii1.1\web\CWebApplication.php:286
+Stack trace:
+#0 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('Gii')
+#1 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=Gii
+---
+2018/02/07 15:29:19 [error] [exception.CException] CException: Property "AnnouncedPuResults.party" is not defined. in C:\yii1.1\base\CComponent.php:130
+Stack trace:
+#0 C:\yii1.1\db\ar\CActiveRecord.php(145): CComponent->__get('party')
+#1 C:\yii1.1\web\helpers\CHtml.php(2747): CActiveRecord->__get('party')
+#2 C:\yii1.1\web\helpers\CHtml.php(1994): CHtml::resolveValue(Object(AnnouncedPuResults), 'party')
+#3 C:\Apache24\htdocs\bincom\bincom\protected\views\announcedPuResults\_form.php(73): CHtml::activeDropDownList(Object(AnnouncedPuResults), 'party', Array, Array)
+#4 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#5 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#6 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#7 C:\Apache24\htdocs\bincom\bincom\protected\views\announcedPuResults\create.php(14): CController->renderPartial('_form', Array)
+#8 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#9 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#10 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#11 C:\yii1.1\web\CController.php(785): CController->renderPartial('create', Array, true)
+#12 C:\Apache24\htdocs\bincom\bincom\protected\controllers\AnnouncedPuResultsController.php(78): CController->render('create', Array)
+#13 C:\yii1.1\web\actions\CInlineAction.php(49): AnnouncedPuResultsController->actionCreate()
+#14 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\yii1.1\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 C:\yii1.1\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\yii1.1\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#18 C:\yii1.1\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\yii1.1\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\yii1.1\web\CController.php(291): CFilterChain->run()
+#21 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\yii1.1\web\CWebApplication.php(282): CController->run('create')
+#23 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('announcedPuResu...')
+#24 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#25 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/index.php?r=announcedPuResults/create
+HTTP_REFERER=http://localhost/index.php?r=site/lgaresults
+---
+2018/02/07 15:32:09 [error] [exception.CException] CException: Property "Party.party_abbreviation" is not defined. in C:\yii1.1\base\CComponent.php:130
+Stack trace:
+#0 C:\yii1.1\db\ar\CActiveRecord.php(145): CComponent->__get('party_abbreviat...')
+#1 C:\yii1.1\web\helpers\CHtml.php(2747): CActiveRecord->__get('party_abbreviat...')
+#2 C:\yii1.1\web\helpers\CHtml.php(1994): CHtml::resolveValue(Object(Party), 'party_abbreviat...')
+#3 C:\Apache24\htdocs\bincom\bincom\protected\views\announcedPuResults\_form.php(75): CHtml::activeDropDownList(Object(Party), 'party_abbreviat...', Array, Array)
+#4 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#5 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#6 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#7 C:\Apache24\htdocs\bincom\bincom\protected\views\announcedPuResults\create.php(14): CController->renderPartial('_form', Array)
+#8 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#9 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#10 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#11 C:\yii1.1\web\CController.php(785): CController->renderPartial('create', Array, true)
+#12 C:\Apache24\htdocs\bincom\bincom\protected\controllers\AnnouncedPuResultsController.php(78): CController->render('create', Array)
+#13 C:\yii1.1\web\actions\CInlineAction.php(49): AnnouncedPuResultsController->actionCreate()
+#14 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\yii1.1\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 C:\yii1.1\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\yii1.1\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#18 C:\yii1.1\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\yii1.1\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\yii1.1\web\CController.php(291): CFilterChain->run()
+#21 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\yii1.1\web\CWebApplication.php(282): CController->run('create')
+#23 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('announcedPuResu...')
+#24 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#25 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/index.php?r=announcedPuResults/create
+HTTP_REFERER=http://localhost/index.php?r=site/lgaresults
+---
+2018/02/07 16:09:51 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group by ward.ward_name
+			order by ward.ward_id' at line 4. The SQL statement executed was: SELECT ward.ward_id AS ID, ward.ward_name AS Wards from ward
+			join lga ON ward.lga_id = lga.lga_id
+			where lga.lga_id = 
+			group by ward.ward_name
+			order by ward.ward_id.
+in C:\Apache24\htdocs\bincom\bincom\protected\controllers\AnnouncedPuResultsController.php (185)
+in C:\Apache24\htdocs\bincom\bincom\index.php (13)
+2018/02/07 16:09:51 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group by ward.ward_name
+			order by ward.ward_id' at line 4. The SQL statement executed was: SELECT ward.ward_id AS ID, ward.ward_name AS Wards from ward
+			join lga ON ward.lga_id = lga.lga_id
+			where lga.lga_id = 
+			group by ward.ward_name
+			order by ward.ward_id in C:\yii1.1\db\CDbCommand.php:543
+Stack trace:
+#0 C:\yii1.1\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\Apache24\htdocs\bincom\bincom\protected\controllers\AnnouncedPuResultsController.php(185): CDbCommand->queryAll()
+#2 C:\yii1.1\web\actions\CInlineAction.php(49): AnnouncedPuResultsController->actionWardata()
+#3 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\yii1.1\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\yii1.1\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\yii1.1\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\yii1.1\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\yii1.1\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\yii1.1\web\CController.php(291): CFilterChain->run()
+#10 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\yii1.1\web\CWebApplication.php(282): CController->run('Wardata')
+#12 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('announcedPuResu...')
+#13 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=announcedPuResults/Wardata
+HTTP_REFERER=http://localhost/index.php?r=announcedPuResults/create
+---
+2018/02/07 16:10:11 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group by ward.ward_name
+			order by ward.ward_id' at line 4. The SQL statement executed was: SELECT ward.ward_id AS ID, ward.ward_name AS Wards from ward
+			join lga ON ward.lga_id = lga.lga_id
+			where lga.lga_id = 
+			group by ward.ward_name
+			order by ward.ward_id.
+in C:\Apache24\htdocs\bincom\bincom\protected\controllers\AnnouncedPuResultsController.php (185)
+in C:\Apache24\htdocs\bincom\bincom\index.php (13)
+2018/02/07 16:10:11 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group by ward.ward_name
+			order by ward.ward_id' at line 4. The SQL statement executed was: SELECT ward.ward_id AS ID, ward.ward_name AS Wards from ward
+			join lga ON ward.lga_id = lga.lga_id
+			where lga.lga_id = 
+			group by ward.ward_name
+			order by ward.ward_id in C:\yii1.1\db\CDbCommand.php:543
+Stack trace:
+#0 C:\yii1.1\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\Apache24\htdocs\bincom\bincom\protected\controllers\AnnouncedPuResultsController.php(185): CDbCommand->queryAll()
+#2 C:\yii1.1\web\actions\CInlineAction.php(49): AnnouncedPuResultsController->actionWardata()
+#3 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\yii1.1\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\yii1.1\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\yii1.1\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\yii1.1\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\yii1.1\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\yii1.1\web\CController.php(291): CFilterChain->run()
+#10 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\yii1.1\web\CWebApplication.php(282): CController->run('Wardata')
+#12 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('announcedPuResu...')
+#13 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=announcedPuResults/Wardata
+HTTP_REFERER=http://localhost/index.php?r=announcedPuResults/create
+---
+2018/02/07 16:20:02 [error] [exception.Error] Error: Access to undeclared static property: Yii::$app in C:\Apache24\htdocs\bincom\bincom\protected\controllers\AnnouncedPuResultsController.php:177
+Stack trace:
+#0 C:\yii1.1\web\actions\CInlineAction.php(49): AnnouncedPuResultsController->actionWardata()
+#1 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\yii1.1\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 C:\yii1.1\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\yii1.1\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#5 C:\yii1.1\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\yii1.1\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\yii1.1\web\CController.php(291): CFilterChain->run()
+#8 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\yii1.1\web\CWebApplication.php(282): CController->run('Wardata')
+#10 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('announcedPuResu...')
+#11 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php?r=announcedPuResults/Wardata
+HTTP_REFERER=http://localhost/index.php?r=announcedPuResults/create
+---
+2018/02/07 16:23:27 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function CHttpRequest::getPost(), 0 passed in C:\yii1.1\base\CComponent.php on line 111 and at least 1 expected in C:\yii1.1\web\CHttpRequest.php:205
+Stack trace:
+#0 C:\yii1.1\base\CComponent.php(111): CHttpRequest->getPost()
+#1 C:\yii1.1\base\CComponent.php(264): CComponent->__get('post')
+#2 C:\Apache24\htdocs\bincom\bincom\protected\controllers\AnnouncedPuResultsController.php(177): CComponent->__call('post', Array)
+#3 C:\yii1.1\web\actions\CInlineAction.php(49): AnnouncedPuResultsController->actionWardata()
+#4 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\yii1.1\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\yii1.1\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\yii1.1\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 C:\yii1.1\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\yii1.1\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\yii1.1\web\CController.php(291): CFilterChain->run()
+#11 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\yii1.1\web\CWebApplication.php(282): CController->run('Wardata')
+#13 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('announcedPuResu...')
+#14 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=announcedPuResults/Wardata
+HTTP_REFERER=http://localhost/index.php?r=announcedPuResults/create
+---
+2018/02/07 16:36:22 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function CHttpRequest::getPost(), 0 passed in C:\yii1.1\base\CComponent.php on line 111 and at least 1 expected in C:\yii1.1\web\CHttpRequest.php:205
+Stack trace:
+#0 C:\yii1.1\base\CComponent.php(111): CHttpRequest->getPost()
+#1 C:\yii1.1\base\CComponent.php(264): CComponent->__get('post')
+#2 C:\Apache24\htdocs\bincom\bincom\protected\controllers\AnnouncedPuResultsController.php(177): CComponent->__call('post', Array)
+#3 C:\yii1.1\web\actions\CInlineAction.php(49): AnnouncedPuResultsController->actionWardata()
+#4 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\yii1.1\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\yii1.1\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\yii1.1\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 C:\yii1.1\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\yii1.1\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\yii1.1\web\CController.php(291): CFilterChain->run()
+#11 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\yii1.1\web\CWebApplication.php(282): CController->run('Wardata')
+#13 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('announcedPuResu...')
+#14 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=announcedPuResults/Wardata
+HTTP_REFERER=http://localhost/index.php?r=announcedPuResults/create
+---
+2018/02/07 16:37:32 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function CHttpRequest::getPost(), 0 passed in C:\yii1.1\base\CComponent.php on line 111 and at least 1 expected in C:\yii1.1\web\CHttpRequest.php:205
+Stack trace:
+#0 C:\yii1.1\base\CComponent.php(111): CHttpRequest->getPost()
+#1 C:\yii1.1\base\CComponent.php(264): CComponent->__get('post')
+#2 C:\Apache24\htdocs\bincom\bincom\protected\controllers\AnnouncedPuResultsController.php(177): CComponent->__call('post', Array)
+#3 C:\yii1.1\web\actions\CInlineAction.php(49): AnnouncedPuResultsController->actionWardata()
+#4 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\yii1.1\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\yii1.1\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\yii1.1\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 C:\yii1.1\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\yii1.1\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\yii1.1\web\CController.php(291): CFilterChain->run()
+#11 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\yii1.1\web\CWebApplication.php(282): CController->run('Wardata')
+#13 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('announcedPuResu...')
+#14 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=announcedPuResults/Wardata
+HTTP_REFERER=http://localhost/index.php?r=announcedPuResults/create
+---
+2018/02/07 16:39:30 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function CHttpRequest::getPost(), 0 passed in C:\yii1.1\base\CComponent.php on line 111 and at least 1 expected in C:\yii1.1\web\CHttpRequest.php:205
+Stack trace:
+#0 C:\yii1.1\base\CComponent.php(111): CHttpRequest->getPost()
+#1 C:\yii1.1\base\CComponent.php(264): CComponent->__get('post')
+#2 C:\Apache24\htdocs\bincom\bincom\protected\controllers\AnnouncedPuResultsController.php(177): CComponent->__call('post', Array)
+#3 C:\yii1.1\web\actions\CInlineAction.php(49): AnnouncedPuResultsController->actionWardata()
+#4 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\yii1.1\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\yii1.1\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\yii1.1\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 C:\yii1.1\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\yii1.1\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\yii1.1\web\CController.php(291): CFilterChain->run()
+#11 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\yii1.1\web\CWebApplication.php(282): CController->run('Wardata')
+#13 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('announcedPuResu...')
+#14 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=announcedPuResults/Wardata
+HTTP_REFERER=http://localhost/index.php?r=announcedPuResults/create
+---
+2018/02/07 17:20:12 [error] [exception.Error] Error: Call to a member function hasErrors() on string in C:\yii1.1\web\helpers\CHtml.php:1998
+Stack trace:
+#0 C:\Apache24\htdocs\bincom\bincom\protected\views\announcedPuResults\_form.php(59): CHtml::activeDropDownList('ward', '', Array, Array)
+#1 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#2 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#3 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#4 C:\Apache24\htdocs\bincom\bincom\protected\views\announcedPuResults\create.php(14): CController->renderPartial('_form', Array)
+#5 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#6 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#7 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#8 C:\yii1.1\web\CController.php(785): CController->renderPartial('create', Array, true)
+#9 C:\Apache24\htdocs\bincom\bincom\protected\controllers\AnnouncedPuResultsController.php(78): CController->render('create', Array)
+#10 C:\yii1.1\web\actions\CInlineAction.php(49): AnnouncedPuResultsController->actionCreate()
+#11 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\yii1.1\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 C:\yii1.1\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\yii1.1\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#15 C:\yii1.1\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\yii1.1\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\yii1.1\web\CController.php(291): CFilterChain->run()
+#18 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\yii1.1\web\CWebApplication.php(282): CController->run('create')
+#20 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('announcedPuResu...')
+#21 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#22 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/index.php?r=announcedPuResults/create
+HTTP_REFERER=http://localhost/index.php?r=site/lgaresults
+---
+2018/02/07 17:46:16 [error] [exception.Error] Error: Class 'Ward' not found in C:\Apache24\htdocs\bincom\bincom\protected\views\announcedPuResults\_form.php:53
+Stack trace:
+#0 C:\yii1.1\web\CBaseController.php(126): require()
+#1 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#2 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#3 C:\Apache24\htdocs\bincom\bincom\protected\views\announcedPuResults\create.php(14): CController->renderPartial('_form', Array)
+#4 C:\yii1.1\web\CBaseController.php(126): require('C:\\Apache24\\htd...')
+#5 C:\yii1.1\web\CBaseController.php(95): CBaseController->renderInternal('C:\\Apache24\\htd...', Array, true)
+#6 C:\yii1.1\web\CController.php(872): CBaseController->renderFile('C:\\Apache24\\htd...', Array, true)
+#7 C:\yii1.1\web\CController.php(785): CController->renderPartial('create', Array, true)
+#8 C:\Apache24\htdocs\bincom\bincom\protected\controllers\AnnouncedPuResultsController.php(78): CController->render('create', Array)
+#9 C:\yii1.1\web\actions\CInlineAction.php(49): AnnouncedPuResultsController->actionCreate()
+#10 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\yii1.1\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\yii1.1\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\yii1.1\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 C:\yii1.1\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\yii1.1\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\yii1.1\web\CController.php(291): CFilterChain->run()
+#17 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\yii1.1\web\CWebApplication.php(282): CController->run('create')
+#19 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('announcedPuResu...')
+#20 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=announcedPuResults/create
+HTTP_REFERER=http://localhost/index.php?r=site/lgaresults
+---
+2018/02/07 17:46:58 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SSELECT polling_unit.uniqueid AS ID, polling_unit.polling_unit_name AS Units fro' at line 1. The SQL statement executed was: SSELECT polling_unit.uniqueid AS ID, polling_unit.polling_unit_name AS Units from polling_unit
+			where polling_unit.ward_id = ''
+			order by polling_unit.polling_unit_name.
+in C:\Apache24\htdocs\bincom\bincom\protected\controllers\AnnouncedPuResultsController.php (205)
+in C:\Apache24\htdocs\bincom\bincom\index.php (13)
+2018/02/07 17:46:58 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SSELECT polling_unit.uniqueid AS ID, polling_unit.polling_unit_name AS Units fro' at line 1. The SQL statement executed was: SSELECT polling_unit.uniqueid AS ID, polling_unit.polling_unit_name AS Units from polling_unit
+			where polling_unit.ward_id = ''
+			order by polling_unit.polling_unit_name in C:\yii1.1\db\CDbCommand.php:543
+Stack trace:
+#0 C:\yii1.1\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\Apache24\htdocs\bincom\bincom\protected\controllers\AnnouncedPuResultsController.php(205): CDbCommand->queryAll()
+#2 C:\yii1.1\web\actions\CInlineAction.php(49): AnnouncedPuResultsController->actionPollunits()
+#3 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\yii1.1\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\yii1.1\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\yii1.1\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\yii1.1\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\yii1.1\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\yii1.1\web\CController.php(291): CFilterChain->run()
+#10 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\yii1.1\web\CWebApplication.php(282): CController->run('Pollunits')
+#12 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('announcedPuResu...')
+#13 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=announcedPuResults/Pollunits
+HTTP_REFERER=http://localhost/index.php?r=announcedPuResults/create
+---
+2018/02/07 18:38:21 [warning] [application] Failed to set unsafe attribute "datecolumn name" of "AnnouncedPuResults".
+in C:\Apache24\htdocs\bincom\bincom\protected\controllers\AnnouncedPuResultsController.php (75)
+in C:\Apache24\htdocs\bincom\bincom\index.php (13)
+2018/02/07 18:39:46 [warning] [application] Failed to set unsafe attribute "datecolumn name" of "AnnouncedPuResults".
+in C:\Apache24\htdocs\bincom\bincom\protected\controllers\AnnouncedPuResultsController.php (76)
+in C:\Apache24\htdocs\bincom\bincom\index.php (13)
+2018/02/07 18:41:15 [warning] [application] Failed to set unsafe attribute "datecolumn name" of "AnnouncedPuResults".
+in C:\Apache24\htdocs\bincom\bincom\protected\controllers\AnnouncedPuResultsController.php (76)
+in C:\Apache24\htdocs\bincom\bincom\index.php (13)
+2018/02/07 18:42:14 [warning] [application] Failed to set unsafe attribute "datecolumn name" of "AnnouncedPuResults".
+in C:\Apache24\htdocs\bincom\bincom\protected\controllers\AnnouncedPuResultsController.php (76)
+in C:\Apache24\htdocs\bincom\bincom\index.php (13)
+2018/02/07 18:42:46 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '7-2-2018' for column 'date_entered' at row 1. The SQL statement executed was: INSERT INTO `announced_pu_results` (`polling_unit_uniqueid`, `party_abbreviation`, `party_score`, `entered_by_user`, `date_entered`, `user_ip_address`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in C:\Apache24\htdocs\bincom\bincom\protected\controllers\AnnouncedPuResultsController.php (77)
+in C:\Apache24\htdocs\bincom\bincom\index.php (13)
+2018/02/07 18:42:46 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '7-2-2018' for column 'date_entered' at row 1. The SQL statement executed was: INSERT INTO `announced_pu_results` (`polling_unit_uniqueid`, `party_abbreviation`, `party_score`, `entered_by_user`, `date_entered`, `user_ip_address`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5) in C:\yii1.1\db\CDbCommand.php:358
+Stack trace:
+#0 C:\yii1.1\db\ar\CActiveRecord.php(1083): CDbCommand->execute()
+#1 C:\yii1.1\db\ar\CActiveRecord.php(811): CActiveRecord->insert(NULL)
+#2 C:\Apache24\htdocs\bincom\bincom\protected\controllers\AnnouncedPuResultsController.php(77): CActiveRecord->save()
+#3 C:\yii1.1\web\actions\CInlineAction.php(49): AnnouncedPuResultsController->actionCreate()
+#4 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\yii1.1\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\yii1.1\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\yii1.1\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 C:\yii1.1\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\yii1.1\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\yii1.1\web\CController.php(291): CFilterChain->run()
+#11 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\yii1.1\web\CWebApplication.php(282): CController->run('create')
+#13 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('announcedPuResu...')
+#14 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=announcedPuResults/create
+HTTP_REFERER=http://localhost/index.php?r=announcedPuResults/create
+---
+2018/02/07 18:54:30 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in C:\yii1.1\web\CController.php:337
+Stack trace:
+#0 C:\yii1.1\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\yii1.1\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\yii1.1\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\yii1.1\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 C:\yii1.1\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\yii1.1\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\yii1.1\web\CController.php(291): CFilterChain->run()
+#7 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\yii1.1\web\CWebApplication.php(282): CController->run('view')
+#9 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('announcedPuResu...')
+#10 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=announcedPuResults/view
+---
+2018/02/07 18:56:24 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '2018-55-07 06:55:38' for column 'date_entered' at row 1. The SQL statement executed was: INSERT INTO `announced_pu_results` (`polling_unit_uniqueid`, `party_abbreviation`, `party_score`, `entered_by_user`, `date_entered`, `user_ip_address`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in C:\Apache24\htdocs\bincom\bincom\protected\controllers\AnnouncedPuResultsController.php (77)
+in C:\Apache24\htdocs\bincom\bincom\index.php (13)
+2018/02/07 18:56:24 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '2018-55-07 06:55:38' for column 'date_entered' at row 1. The SQL statement executed was: INSERT INTO `announced_pu_results` (`polling_unit_uniqueid`, `party_abbreviation`, `party_score`, `entered_by_user`, `date_entered`, `user_ip_address`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5) in C:\yii1.1\db\CDbCommand.php:358
+Stack trace:
+#0 C:\yii1.1\db\ar\CActiveRecord.php(1083): CDbCommand->execute()
+#1 C:\yii1.1\db\ar\CActiveRecord.php(811): CActiveRecord->insert(NULL)
+#2 C:\Apache24\htdocs\bincom\bincom\protected\controllers\AnnouncedPuResultsController.php(77): CActiveRecord->save()
+#3 C:\yii1.1\web\actions\CInlineAction.php(49): AnnouncedPuResultsController->actionCreate()
+#4 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\yii1.1\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\yii1.1\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\yii1.1\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 C:\yii1.1\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\yii1.1\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\yii1.1\web\CController.php(291): CFilterChain->run()
+#11 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\yii1.1\web\CWebApplication.php(282): CController->run('create')
+#13 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('announcedPuResu...')
+#14 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=announcedPuResults/create
+HTTP_REFERER=http://localhost/index.php?r=announcedPuResults/create
+---
+2018/02/07 18:57:08 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '2018-56-07 06:56:48' for column 'date_entered' at row 1. The SQL statement executed was: INSERT INTO `announced_pu_results` (`polling_unit_uniqueid`, `party_abbreviation`, `party_score`, `entered_by_user`, `date_entered`, `user_ip_address`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in C:\Apache24\htdocs\bincom\bincom\protected\controllers\AnnouncedPuResultsController.php (77)
+in C:\Apache24\htdocs\bincom\bincom\index.php (13)
+2018/02/07 18:57:08 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '2018-56-07 06:56:48' for column 'date_entered' at row 1. The SQL statement executed was: INSERT INTO `announced_pu_results` (`polling_unit_uniqueid`, `party_abbreviation`, `party_score`, `entered_by_user`, `date_entered`, `user_ip_address`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5) in C:\yii1.1\db\CDbCommand.php:358
+Stack trace:
+#0 C:\yii1.1\db\ar\CActiveRecord.php(1083): CDbCommand->execute()
+#1 C:\yii1.1\db\ar\CActiveRecord.php(811): CActiveRecord->insert(NULL)
+#2 C:\Apache24\htdocs\bincom\bincom\protected\controllers\AnnouncedPuResultsController.php(77): CActiveRecord->save()
+#3 C:\yii1.1\web\actions\CInlineAction.php(49): AnnouncedPuResultsController->actionCreate()
+#4 C:\yii1.1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\yii1.1\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\yii1.1\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\yii1.1\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 C:\yii1.1\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\yii1.1\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\yii1.1\web\CController.php(291): CFilterChain->run()
+#11 C:\yii1.1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\yii1.1\web\CWebApplication.php(282): CController->run('create')
+#13 C:\yii1.1\web\CWebApplication.php(141): CWebApplication->runController('announcedPuResu...')
+#14 C:\yii1.1\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\Apache24\htdocs\bincom\bincom\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=announcedPuResults/create
+HTTP_REFERER=http://localhost/index.php?r=announcedPuResults/create
+---
